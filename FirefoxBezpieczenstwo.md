@@ -1,11 +1,12 @@
 
 # Bezpieczny Firefox
 
-Zapewne wielu z was spotkało podczas przeglądania internetu się ze stronami w internecie wyłudzającymi dane, wszędobylskimi reklamami, które zbierają o was informacje oraz samoodtwarzającymi się materiałami wideo.  
-Istnieje kilka dodatków i ustawień, które w znaczący sposób mogą zwiększyć bezpieczeństwo i prywatność użytkownika, spowodować szybsze otwieranie stron oraz zmniejszone użycie zasobów systemowych takich RAM czy czas CPU.   
+Zapewne wielu z was spotkało podczas przeglądania internetu się ze stronami wyłudzającymi dane, wszędobylskimi reklamami, które zbierają informacje o każdym z nas oraz samoodtwarzającymi się materiałami wideo.  
+Istnieje kilka dodatków i ustawień, które w znaczący sposób mogą zwiększyć bezpieczeństwo i prywatność użytkownika, spowodować szybsze otwieranie stron oraz zmniejszone użycie zasobów systemowych takich RAM czy czas CPU poprzez blokadę reklam i szpiegujących elementów.  
 Niektóre porady będą opatrzone stopniem trudności dla mniej lub bardziej zaawansowanych użytkowników.
 
-Porady zostały przygotowane w Firefoxie 70.0  
+Porady zostały przygotowane w Firefoxie 70.0, dlatego niektóre elementy mogą się różnic w zależności od posiadanej wersji.
+
 <center><img src="https://user-images.githubusercontent.com/41945903/68143010-cc24fd00-ff30-11e9-91e9-a0df62ce3bd5.png"></center>
 
 ## Spis Treści
@@ -19,6 +20,8 @@ Porady zostały przygotowane w Firefoxie 70.0
  - [Ublock Origin](#ublock-origin---blokowanie-reklam)
  - [HTTPS Everywhere](#https-everywhere---szyfrowana-sieć)
  - [AdNauseum](#adnauseum---dezorientowanie-reklamodawców)
+ - [Decentraleyes](#decentraleyes)
+- [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
 ## Kilka zasad bezpieczeństwa
 - Instaluj oprogramowanie otwartoźródłowe zamiast własnościowego gdy tylko masz taką możliwość.
@@ -28,7 +31,8 @@ Porady zostały przygotowane w Firefoxie 70.0
 - Staraj się instalować programy ze stron domowej ich producenta lub ze sklepów z oprogramowaniem
 - Korzystaj z oprogramowania antywirusowego
 - Nie wpisuj swoich danych logowania na stronach nieobsługujących szyfrowania.
-- Stosuj unikalne hasła dla każdego serwisu, najlepiej korzystając z menedżera haseł
+- Stosuj unikalne hasła dla każdego serwisu, najlepiej korzystając z menedżera haseł.
+- Nie wpinaj do swojego komputera pendrivów i dysków nieznanego pochodzenia
 
 ## DOH - szyfrowanie DNS
 Dostępną od niedawna DoH, pozwala na szyfrowanie zapytań DNS, które to odpowiedzialne za konwersję nazwy strony np. 'facebook.com' na jej adres IP - '31.13.81.36', dzięki czemu nikt oprócz ciebie i serwera DNS nie będzie w stanie poznać nazwy strony którą chcemy odwiedzić.
@@ -164,7 +168,23 @@ Dodatek ten bazuje na Ublock Origin dzięki czemu umożliwia blokowanie i ukrywa
 
 ![S](https://user-images.githubusercontent.com/41945903/68145927-2c1ea200-ff37-11e9-8def-5638190000a9.png)
 
+### Decentraleyes - Blokowanie śledzenia przez CDN
+Decentraleyes jest dodatkiem umożliwiającym blokowanie śledzenia przez CDN(Content Networks Delivery).  
+Zapobiega wysyłaniu zapytań do sieci, które mogłyby zostać użyte w celu zbierania informacji o użytkowniku, poprzez dostarczanie lokalnie zasobów CDN.
+
+Dodatek działa od razu po instalacji i można pobrać go ze strony - https://addons.mozilla.org/pl/firefox/addon/decentraleyes/
+
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
-Oto niektóre z ciekawszych opcji, które można  zmienić:
-- `dom.popup_allowed_events = puste pole` oraz `dom.popup_maximum = 0` - Blokuje WSZYSTKIE wyskakujące okienka(dawniej i być może teraz opcja wyskakujących okienek nie blokowała wszystkich)
+Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:config` wraz z zalecanymi wartościami:
+- `dom.popup_allowed_events = "puste pole"` oraz `dom.popup_maximum = 0` - Blokuje WSZYSTKIE wyskakujące okienka(dawniej i być może teraz opcja wyskakujących okienek nie blokowała wszystkich)
+- `dom.event.contextmenu.enabled = false` - Zapobiega blokowaniu menu po naciśnięciu prawego przycisku myszy na stronie.
+- `media.peerconnection.enabled = false` - Zapobiega wyciekaniu naszego adresu IP, który może zostać odczytany mimo VPN.
+- `geo.enabled = true` - Wyłącza geolokalizację w której trakcie mogą zostać wysłane informacje na temat bezprzewodowych sieci, naszego adresu IP oraz ID.
+- `privacy.trackingprotection.fingerprinting.enabled = true` - Utrudnia pozyskiwanie odcisku palca użytkownika.
+- `privacy.trackingprotection.cryptomining.enabled = true` - Blokuje koparki kryptowalut.
+- `privacy.firstparty.isolate = true` - Izoluje ciasteczka tak aby działały w obrębie jednej witryny i uniemożliwia im odczytywanie danych z innych witryn.
+- `privacy.trackingprotection.enabled = true` - Wbudowania ochrona przed szpiegowaniem wykorzystująca filtry Disconnect.me.
+- `media.navigator.enabled = false` - Blokuje możliwość odczytu statusu kamery i mikrofonu.
+- `webgl.disabled = true` - Wyłącza WebGL, które potencjalnie może być źródłem ataków oraz może pomóc jednoznacznie identyfikować użytkownika.
+- `dom.event.clipboardevents.enabled = false` - Wyłącza powiadamianie strony, gdy coś się na niej skopiuje, wklei czy wytnie.
