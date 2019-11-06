@@ -197,3 +197,7 @@ Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:conf
 - `network.security.esni.enabled = true` - Wsparcie szyfrowania dla SNI, które blokujące możliwość poznania stron które odwiedzamy.
 - `dom.battery.enabled = false` - Blokuje możliwość odczytu informacji o baterii
 - `plugins.enumerable_names = "puste pole"` - Zapobiega odczytywaniu listy dostępnych wtyczek
+
+Szablony user.js dla Firefox
+- ang [ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) - Trwający obszerny szablon user.js służący do konfigurowania i utwardzania prywatności, bezpieczeństwa i ochrony przed pobieraniem odcisków palców Firefoksa.
+- ang [pyllyukko/user.js](https://github.com/pyllyukko/user.js) - Jest to plik konfiguracyjny user.js, który utwardza ustawienia Firefoksa i czyni go bardziej bezpiecznym.
