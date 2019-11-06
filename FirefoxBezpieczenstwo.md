@@ -186,7 +186,7 @@ Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:conf
 - `dom.popup_allowed_events = "puste pole"` oraz `dom.popup_maximum = 0` - Blokuje WSZYSTKIE wyskakujące okienka(korzystałem z tego dawniej ponieważ opcja wyskakujących okienek nie blokowała ich wszystkich i nie wiem jak jest teraz)
 - `dom.event.contextmenu.enabled = false` - Zapobiega blokowaniu menu po naciśnięciu prawego przycisku myszy na stronie.
 - `media.peerconnection.enabled = false` - Zapobiega wyciekaniu naszego adresu IP, który może zostać odczytany mimo VPN.
-- `geo.enabled = true` - Wyłącza geolokalizację w której trakcie mogą zostać wysłane informacje na temat bezprzewodowych sieci, naszego adresu IP oraz ID.
+- `geo.enabled = false` - Wyłącza geolokalizację w której trakcie mogą zostać wysłane informacje na temat bezprzewodowych sieci, naszego adresu IP oraz ID.
 - `privacy.trackingprotection.fingerprinting.enabled = true` - Utrudnia pozyskiwanie odcisku palca użytkownika.
 - `privacy.trackingprotection.cryptomining.enabled = true` - Blokuje koparki kryptowalut.
 - `privacy.firstparty.isolate = true` - Izoluje ciasteczka tak aby działały w obrębie jednej witryny i uniemożliwia im odczytywanie danych z innych witryn.
