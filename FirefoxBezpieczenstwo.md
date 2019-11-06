@@ -183,7 +183,7 @@ Dodatek działa od razu po instalacji i można pobrać go ze strony - https://ad
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
 Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:config` wraz z zalecanymi wartościami:
-- `dom.popup_allowed_events = "puste pole"` oraz `dom.popup_maximum = 0` - Blokuje WSZYSTKIE wyskakujące okienka(dawniej i być może teraz opcja wyskakujących okienek nie blokowała wszystkich)
+- `dom.popup_allowed_events = "puste pole"` oraz `dom.popup_maximum = 0` - Blokuje WSZYSTKIE wyskakujące okienka(korzystałem z tego dawniej ponieważ opcja wyskakujących okienek nie blokowała ich wszystkich i nie wiem jak jest teraz)
 - `dom.event.contextmenu.enabled = false` - Zapobiega blokowaniu menu po naciśnięciu prawego przycisku myszy na stronie.
 - `media.peerconnection.enabled = false` - Zapobiega wyciekaniu naszego adresu IP, który może zostać odczytany mimo VPN.
 - `geo.enabled = true` - Wyłącza geolokalizację w której trakcie mogą zostać wysłane informacje na temat bezprzewodowych sieci, naszego adresu IP oraz ID.
@@ -194,3 +194,6 @@ Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:conf
 - `media.navigator.enabled = false` - Blokuje możliwość odczytu statusu kamery i mikrofonu.
 - `webgl.disabled = true` - Wyłącza WebGL, które potencjalnie może być źródłem ataków oraz może pomóc jednoznacznie identyfikować użytkownika.
 - `dom.event.clipboardevents.enabled = false` - Wyłącza powiadamianie strony, gdy coś się na niej skopiuje, wklei czy wytnie.
+- `network.security.esni.enabled = true` - Wsparcie szyfrowania dla SNI, które blokujące możliwość poznania stron które odwiedzamy.
+- `dom.battery.enabled = false` - Blokuje możliwość odczytu informacji o baterii
+- `plugins.enumerable_names = "puste pole"` - Zapobiega odczytywaniu listy dostępnych wtyczek
