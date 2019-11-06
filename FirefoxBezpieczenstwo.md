@@ -9,6 +9,12 @@ Porady zostały przygotowane w Firefoxie 70.0, dlatego niektóre elementy mogą 
 
 <center><img src="https://user-images.githubusercontent.com/41945903/68143010-cc24fd00-ff30-11e9-91e9-a0df62ce3bd5.png"></center>
 
+
+Jeśli spodobał ci się tekst, możesz przekazać darowiznę
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Q8ZN556U7DGP8&source=url"><img src="https://raw.githubusercontent.com/qarmin/Godot-Poradnik/master/paypal.gif"></a>
+lub zafundować mi kawę
+<a href="https://ko-fi.com/qarmin"><img height="23" src="https://raw.githubusercontent.com/qarmin/Godot-Poradnik/master/buy_me_a_coffee.png"></a>
+
 ## Spis Treści
 - [Kilka Zasad Bezpieczeństwa](#kilka-zasad-bezpieczeństwa)
 - [DoH](#doh---szyfrowanie-dns)
@@ -21,6 +27,7 @@ Porady zostały przygotowane w Firefoxie 70.0, dlatego niektóre elementy mogą 
  - [HTTPS Everywhere](#https-everywhere---szyfrowana-sieć)
  - [AdNauseum](#adnauseum---dezorientowanie-reklamodawców)
  - [Decentraleyes](#decentraleyes)
+ - [Containers](#containers---zamykanie-stron-w-kontenery)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
 ## Kilka zasad bezpieczeństwa
@@ -179,6 +186,21 @@ Decentraleyes jest dodatkiem umożliwiającym blokowanie śledzenia przez CDN(Co
 Zapobiega wysyłaniu zapytań do sieci, które mogłyby zostać użyte w celu zbierania informacji o użytkowniku, poprzez dostarczanie lokalnie zasobów CDN.
 
 Dodatek działa od razu po instalacji i można pobrać go ze strony - https://addons.mozilla.org/pl/firefox/addon/decentraleyes/
+
+### Containers - Zamykanie stron w kontenery
+#### Dla początkujących
+Najbardziej podstawowym sposobem na opakowanie strony w kontener, który uniemożliwia śledzenie poczynań użytkownika poza daną stroną jest **Facebook Container** opakowujący stronę wraz z śledzącymi skryptami i ciasteczkami.
+
+Aby zaczął działać wystarczy zainstalować go ze strony - https://addons.mozilla.org/en-US/firefox/addon/facebook-container/
+
+#### Dla zaawansowanych
+Istnieje również nieco bardziej zaawansowana forma tego dodatku.  
+Nazywa się **Firefox Multi-Account Containers** i można ją pobrać ze strony https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/.  
+
+Dodatek pozwala użytkownikowi na stworzenie wielu kontenerów, które będą uniemożliwiały podgląd ciasteczek i danych między sobą.  
+Oprócz oczywistego zysku dla prywatności, umożliwia użytkownikom łatwe organizowanie kart, przez co w tym samym oknie przeglądarki z kartami w różnych kontenerach możemy mieć dostęp np. do dwóch kont na facebooku, jednym firmowym a drugim prywatnym.
+
+![S](https://user-images.githubusercontent.com/41945903/68333738-6d4eb780-00d9-11ea-970b-42c08f54f573.png)
 
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
