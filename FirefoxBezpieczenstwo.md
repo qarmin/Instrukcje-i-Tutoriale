@@ -211,6 +211,11 @@ https://addons.mozilla.org/pl/firefox/addon/canvas-blocker-no-fingerprint/
 
 aby przetestować, wejdź na https://browserleaks.com/canvas
 
+### ClearURLs - Optymalizator linków
+
+usuwanie elementów śledzących, z linków przekierowywujących pomiędzy odwiedzanymi domenami
+https://addons.mozilla.org/en-US/firefox/addon/clearurls/
+
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
 Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:config` wraz z zalecanymi wartościami:
