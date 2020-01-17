@@ -216,6 +216,11 @@ aby przetestować, wejdź na https://browserleaks.com/canvas
 usuwanie elementów śledzących, z linków przekierowywujących pomiędzy odwiedzanymi domenami
 https://addons.mozilla.org/en-US/firefox/addon/clearurls/
 
+### Privacy Possum - Redukuje śledzeni
+
+Prywatność Possum sprawia, że śledzenie Ciebie jest mniej opłacalne. Firmy zbierają dane o Tobie, aby stworzyć asymetrię informacji, które wykorzystują do osiągania zysków w coraz bardziej ekspansywny sposób. Ich zysk pochodzi z Twojej niekorzystnej sytuacji informacyjnej. Prywatność Possum eliminuje powszechne komercyjne metody śledzenia poprzez redukcję i fałszowanie danych zebranych przez firmy śledzące.
+https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/
+
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
 Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:config` wraz z zalecanymi wartościami:
