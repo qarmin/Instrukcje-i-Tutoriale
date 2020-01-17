@@ -69,7 +69,7 @@ Aby ją ustawić jako domyślną wyszukiwarkę należy przejść do ustawień i 
 
 ![S](https://user-images.githubusercontent.com/41945903/68150615-650f4480-ff40-11e9-84c2-2c15610ad419.png)
 
-alternatywnie, możesz wybrać inną wyszukiwarkę
+alternatywnie, możesz wybrać inną prywatną wyszukiwarkę
 
 https://addons.mozilla.org/pl/firefox/addon/privacytools-searx/
 https://addons.mozilla.org/pl/firefox/addon/mojeek-uk-community/
