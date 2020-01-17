@@ -204,6 +204,13 @@ Oprócz oczywistego zysku dla prywatności, umożliwia użytkownikom łatwe orga
 
 ![S](https://user-images.githubusercontent.com/41945903/68333738-6d4eb780-00d9-11ea-970b-42c08f54f573.png)
 
+### Canvas Blocker (Fingerprint Protect) - Zmiana odcisku palca
+
+skuteczne narzędzie, pozwalające zmienić odcisk palca przy każdym odświeżeniu odwiedzanej strony
+https://addons.mozilla.org/pl/firefox/addon/canvas-blocker-no-fingerprint/
+
+aby przetestować, wejdź na https://browserleaks.com/canvas
+
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
 Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:config` wraz z zalecanymi wartościami:
