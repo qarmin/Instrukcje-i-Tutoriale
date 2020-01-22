@@ -17,7 +17,7 @@ lub zafundować mi kawę
 
 ## Spis Treści
 - [Kilka Zasad Bezpieczeństwa](#kilka-zasad-bezpieczeństwa)
-- [DoH](#doh---szyfrowanie-dns)
+- [DoH](#doh---szyfrowane-dns)
 - [Telemetria Firefoxa](#telemetria-firefoxa)
 - [Prywatna wyszukiwarka](#prywatna-wyszukiwarka)
 - [Wbudowana ochrona przed śledzeniem](#wbudowana-ochrona-przed-śledzeniem)
