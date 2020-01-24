@@ -57,7 +57,7 @@ Wyłączyć można je w ustawieniach Firefoxa w zakładce **Prywatność i Bezpi
 
 ![S](https://user-images.githubusercontent.com/41945903/68146588-a0a61080-ff38-11e9-882d-c97b505ef4e6.png)
 
-Dodatkowo, w **about:config** wpisz **telemetry** i ustaw wszystko na **false**
+Jeśli masz najnowszą wersje przeglądarki, w **about:config** wpisz **telemetry** i ustaw wszystko na **false**
 
 ## Prywatna wyszukiwarka
 
