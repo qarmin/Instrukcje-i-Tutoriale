@@ -57,7 +57,7 @@ Wyłączyć można je w ustawieniach Firefoxa w zakładce **Prywatność i Bezpi
 
 ![S](https://user-images.githubusercontent.com/41945903/68146588-a0a61080-ff38-11e9-882d-c97b505ef4e6.png)
 
-dodatkowo, w **about:config** wpisz **telemetry** i ustaw wszystko na **false**
+Dodatkowo, w **about:config** wpisz **telemetry** i ustaw wszystko na **false**
 
 ## Prywatna wyszukiwarka
 
@@ -69,7 +69,7 @@ Aby ją ustawić jako domyślną wyszukiwarkę należy przejść do ustawień i 
 
 ![S](https://user-images.githubusercontent.com/41945903/68150615-650f4480-ff40-11e9-84c2-2c15610ad419.png)
 
-alternatywnie, możesz wybrać inną prywatną wyszukiwarkę
+Alternatywnie, możesz wybrać inną prywatną wyszukiwarkę
 
 https://addons.mozilla.org/pl/firefox/addon/privacytools-searx/
 https://addons.mozilla.org/pl/firefox/addon/mojeek-uk-community/
@@ -212,14 +212,14 @@ Oprócz oczywistego zysku dla prywatności, umożliwia użytkownikom łatwe orga
 
 ### Canvas Blocker (Fingerprint Protect) - Zmiana odcisku palca
 
-skuteczne narzędzie, pozwalające zmienić odcisk palca przy każdym odświeżeniu odwiedzanej strony
+Skuteczne narzędzie, pozwalające zmienić odcisk palca przy każdym odświeżeniu odwiedzanej strony
 https://addons.mozilla.org/pl/firefox/addon/canvas-blocker-no-fingerprint/
 
 aby przetestować, wejdź na https://browserleaks.com/canvas
 
 ### ClearURLs - Optymalizator linków
 
-usuwanie elementów śledzących, z linków przekierowywujących pomiędzy odwiedzanymi domenami
+Usuwanie elementów śledzących, z linków przekierowywujących pomiędzy odwiedzanymi domenami
 https://addons.mozilla.org/en-US/firefox/addon/clearurls/
 
 ### Privacy Possum - Utrudnia śledzenie [*](https://github.com/ghacksuserjs/ghacks-user.js/wiki/4.1-Extensions#small_orange_diamond-dont-bother)
