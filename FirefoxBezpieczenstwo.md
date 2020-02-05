@@ -17,7 +17,7 @@ lub zafundować mi kawę
 
 ## Spis Treści
 - [Kilka Zasad Bezpieczeństwa](#kilka-zasad-bezpieczeństwa)
-- [DoH](#doh---szyfrowanie-dns)
+- [DoH](#doh---szyfrowane-dns)
 - [Telemetria Firefoxa](#telemetria-firefoxa)
 - [Prywatna wyszukiwarka](#prywatna-wyszukiwarka)
 - [Wbudowana ochrona przed śledzeniem](#wbudowana-ochrona-przed-śledzeniem)
@@ -57,6 +57,8 @@ Wyłączyć można je w ustawieniach Firefoxa w zakładce **Prywatność i Bezpi
 
 ![S](https://user-images.githubusercontent.com/41945903/68146588-a0a61080-ff38-11e9-882d-c97b505ef4e6.png)
 
+Jeśli masz najnowszą wersje przeglądarki, w **about:config** wpisz **telemetry** i ustaw wszystko na **false**
+
 ## Prywatna wyszukiwarka
 
 Domyślną wyszukiwarką w Firefoxie jest wyszukiwarka Google, która to przetwarza zapytania użytkownika tworząc na jego podstawie profil użytkownika, sprzedając te dane reklamodawcom.  
@@ -66,6 +68,11 @@ Jedną z lepszych alternatywnych wyszukiwarek jest **DuckDuckGo**, oferująca u�
 Aby ją ustawić jako domyślną wyszukiwarkę należy przejść do ustawień i w zakładce **Wyszukiwanie** pod **Domyślna wyszukiwarka** wybrać **DuckDuckGo**
 
 ![S](https://user-images.githubusercontent.com/41945903/68150615-650f4480-ff40-11e9-84c2-2c15610ad419.png)
+
+Alternatywnie, możesz wybrać inną prywatną wyszukiwarkę
+
+https://addons.mozilla.org/pl/firefox/addon/privacytools-searx/
+https://addons.mozilla.org/en-US/firefox/addon/qwant-lite/
 
 ## Wbudowana ochrona przed śledzeniem
 Firefox oferuje domyślnie **Standardową** ochronę przed śledzącymi skryptami, ciasteczkami czy kryptowalutami.  
@@ -201,6 +208,29 @@ Dodatek pozwala użytkownikowi na stworzenie wielu kontenerów, które będą un
 Oprócz oczywistego zysku dla prywatności, umożliwia użytkownikom łatwe organizowanie kart, przez co w tym samym oknie przeglądarki z kartami w różnych kontenerach możemy mieć dostęp np. do dwóch kont na facebooku, jednym firmowym a drugim prywatnym.
 
 ![S](https://user-images.githubusercontent.com/41945903/68333738-6d4eb780-00d9-11ea-970b-42c08f54f573.png)
+
+### Canvas Blocker (Fingerprint Protect) - Zmiana odcisku palca
+
+Skuteczne narzędzie, pozwalające zmienić odcisk palca przy każdym odświeżeniu odwiedzanej strony
+https://addons.mozilla.org/pl/firefox/addon/canvas-blocker-no-fingerprint/
+
+aby przetestować, wejdź na https://browserleaks.com/canvas
+
+### ClearURLs - Optymalizator linków
+
+Usuwanie elementów śledzących, z linków przekierowywujących pomiędzy odwiedzanymi domenami
+https://addons.mozilla.org/en-US/firefox/addon/clearurls/
+
+### Privacy Possum - Utrudnia śledzenie [*](https://github.com/ghacksuserjs/ghacks-user.js/wiki/4.1-Extensions#small_orange_diamond-dont-bother)
+
+Prywatność Possum sprawia, że śledzenie Ciebie jest mniej opłacalne. Firmy zbierają dane o Tobie, aby stworzyć asymetrię informacji, które wykorzystują do osiągania zysków w coraz bardziej ekspansywny sposób. Ich zysk pochodzi z Twojej niekorzystnej sytuacji informacyjnej. Prywatność Possum eliminuje powszechne komercyjne metody śledzenia poprzez redukcję i fałszowanie danych zebranych przez firmy śledzące.
+https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/
+
+### Polska Ciasteczkowa Zgoda
+
+Rozszerzenie automatycznie akceptujące politykę ciasteczek/RODO na stronach dostępnych w języku polskim. Stanowi ono uzupełnienie [Polskich Filtrów Rodo-Ciasteczkowych](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/cookies_filters/adblock_cookies.txt&title=Polskie%20Filtry%20RODO-Ciasteczkowe) (wchodzących też w skład **Polskich Filtrów Elementów Irytujących**) oraz wymaganej przez nie listy [I don't care about cookies](https://subscribe.adblockplus.org/?location=https://www.i-dont-care-about-cookies.eu/abp/&title=I%20dont%20care%20about%20cookies).
+
+https://addons.mozilla.org/pl/firefox/addon/polish-cookie-consent/
 
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
