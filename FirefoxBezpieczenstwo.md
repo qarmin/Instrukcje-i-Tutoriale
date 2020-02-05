@@ -72,7 +72,6 @@ Aby ją ustawić jako domyślną wyszukiwarkę należy przejść do ustawień i 
 Alternatywnie, możesz wybrać inną prywatną wyszukiwarkę
 
 https://addons.mozilla.org/pl/firefox/addon/privacytools-searx/
-https://addons.mozilla.org/pl/firefox/addon/mojeek-uk-community/
 https://addons.mozilla.org/en-US/firefox/addon/qwant-lite/
 
 ## Wbudowana ochrona przed śledzeniem
