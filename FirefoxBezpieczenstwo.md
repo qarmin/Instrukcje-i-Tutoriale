@@ -50,6 +50,7 @@ Domyślnym dostawcą jest Cloudlare, lecz adres serwera DNS obsługującego szyf
 
 ![S](https://user-images.githubusercontent.com/41945903/68145118-5a02e700-ff35-11e9-8f3b-5a494cfa15e9.png)
 
+aby sprawdzić czy wszystko działa https://www.cloudflare.com/ssl/encrypted-sni/ https://www.dnsleaktest.com/
 
 ## Telemetria Firefoxa
 Firefox domyślnie zbiera pewne informacje telemetryczne i zgłoszenia awarii, więc jeśli chcemy pomóc w jego rozwoju, możemy zaznaczyć niektóre lub wszystkie z opcji.  
