@@ -47,6 +47,7 @@ DoH jest dostępną od niedawna usługą, która pozwala na szyfrowanie zapytań
 Aby je włączyć najpierw otwieramy ustawienia, przechodzimy na sam dół i w zakładce **Sieć** otwieramy naciskamy na przycisk **Ustawienia...** a w nich zaznaczamy opcję **DNS poprzez HTTPS** i zatwierdzamy to klikając na **OK**.
 
 Domyślnym dostawcą jest Cloudlare, lecz adres serwera DNS obsługującego szyfrowanie możemy dowolnie zmieniać.
+https://www.privacytools.io/providers/dns/#dns https://gist.github.com/ookangzheng/c8fba46fe1dbcc8152e3231f53f91e86
 
 ![S](https://user-images.githubusercontent.com/41945903/68145118-5a02e700-ff35-11e9-8f3b-5a494cfa15e9.png)
 
