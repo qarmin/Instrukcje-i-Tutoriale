@@ -51,11 +51,11 @@ https://www.privacytools.io/providers/dns/#dns https://gist.github.com/ookangzhe
 
 ![S](https://user-images.githubusercontent.com/41945903/68145118-5a02e700-ff35-11e9-8f3b-5a494cfa15e9.png)
 
-Wejdź w **about:config**, wpisz **network.trr.mode** i ustaw na **2**
+Jeśli jednak możesz w **about:config**, wpisz **network.trr.mode** i ustaw na **2**
 
 ![s](https://www.ghacks.net/wp-content/uploads/2018/04/firefox-network-trr-dns-over-https.png)
 
-Aby sprawdzić czy wszystko działa https://www.cloudflare.com/ssl/encrypted-sni/ https://www.dnsleaktest.com/
+Aby sprawdzić czy szyfrowany DNS działa, wykonaj test na stronie https://www.cloudflare.com/ssl/encrypted-sni/ lub też https://www.dnsleaktest.com/
 
 ## Telemetria Firefoxa
 Firefox domyślnie zbiera pewne informacje telemetryczne i zgłoszenia awarii, więc jeśli chcemy pomóc w jego rozwoju, możemy zaznaczyć niektóre lub wszystkie z opcji.  
