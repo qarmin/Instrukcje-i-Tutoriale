@@ -259,3 +259,5 @@ Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:conf
 Szablony user.js dla Firefox
 - ang [ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) - Trwający obszerny szablon user.js służący do konfigurowania i utwardzania prywatności, bezpieczeństwa i ochrony przed pobieraniem odcisków palców Firefoksa.
 - ang [pyllyukko/user.js](https://github.com/pyllyukko/user.js) - Jest to plik konfiguracyjny user.js, który utwardza ustawienia Firefoksa i czyni go bardziej bezpiecznym.
+
+sprawdź czy twoja konfiguracja jest powtarzalna https://amiunique.org/fp
