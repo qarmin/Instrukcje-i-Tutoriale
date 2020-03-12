@@ -47,9 +47,15 @@ DoH jest dostępną od niedawna usługą, która pozwala na szyfrowanie zapytań
 Aby je włączyć najpierw otwieramy ustawienia, przechodzimy na sam dół i w zakładce **Sieć** otwieramy naciskamy na przycisk **Ustawienia...** a w nich zaznaczamy opcję **DNS poprzez HTTPS** i zatwierdzamy to klikając na **OK**.
 
 Domyślnym dostawcą jest Cloudlare, lecz adres serwera DNS obsługującego szyfrowanie możemy dowolnie zmieniać.
+https://www.privacytools.io/providers/dns/#dns https://gist.github.com/ookangzheng/c8fba46fe1dbcc8152e3231f53f91e86
 
 ![S](https://user-images.githubusercontent.com/41945903/68145118-5a02e700-ff35-11e9-8f3b-5a494cfa15e9.png)
 
+Jeśli jednak możesz w **about:config**, wpisz **network.trr.mode** i ustaw na **2**
+
+![s](https://www.ghacks.net/wp-content/uploads/2018/04/firefox-network-trr-dns-over-https.png)
+
+Aby sprawdzić czy szyfrowany DNS działa, wykonaj test na stronie https://www.cloudflare.com/ssl/encrypted-sni/ lub też https://www.dnsleaktest.com/
 
 ## Telemetria Firefoxa
 Firefox domyślnie zbiera pewne informacje telemetryczne i zgłoszenia awarii, więc jeśli chcemy pomóc w jego rozwoju, możemy zaznaczyć niektóre lub wszystkie z opcji.  
@@ -253,3 +259,5 @@ Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:conf
 Szablony user.js dla Firefox
 - ang [ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) - Trwający obszerny szablon user.js służący do konfigurowania i utwardzania prywatności, bezpieczeństwa i ochrony przed pobieraniem odcisków palców Firefoksa.
 - ang [pyllyukko/user.js](https://github.com/pyllyukko/user.js) - Jest to plik konfiguracyjny user.js, który utwardza ustawienia Firefoksa i czyni go bardziej bezpiecznym.
+
+sprawdź czy twoja konfiguracja jest powtarzalna https://amiunique.org/fp
