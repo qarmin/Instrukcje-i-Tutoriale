@@ -238,6 +238,12 @@ Rozszerzenie automatycznie akceptujące politykę ciasteczek/RODO na stronach do
 
 https://addons.mozilla.org/pl/firefox/addon/polish-cookie-consent/
 
+### Nano Defender
+
+[Nano Defender](https://github.com/jspenguin2017/uBlockProtector/releases) to połączenie skryptu [AAK](https://github.com/reek/anti-adblock-killer/wiki/AAK-Dead-and-Discontinued) z dodatkiem [uBlock Origin Extra](https://github.com/gorhill/uBO-Extra). Korzystając z Nano Defendera i [uBlocka Origin](https://github.com/gorhill/uBlock/releases) lub [Nano Adblockera](https://github.com/NanoAdblocker/NanoCore/releases) nie będziesz musiał przejmować się skryptami anty-adblock które uniemożliwiają dostępu do stron.
+
+https://majkiit.github.io/polish-ads-filter/docs/advanced/jak-zainstalowa%C4%87-nano-defender-na-firefoksie-waterfoksie-chroperze-albo-chrome/
+
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
 Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:config` wraz z zalecanymi wartościami:
