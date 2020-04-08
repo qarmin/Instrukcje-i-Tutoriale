@@ -75,10 +75,21 @@ Aby ją ustawić jako domyślną wyszukiwarkę należy przejść do ustawień i 
 
 ![S](https://user-images.githubusercontent.com/41945903/68150615-650f4480-ff40-11e9-84c2-2c15610ad419.png)
 
-Alternatywnie, możesz wybrać inną prywatną wyszukiwarkę
+Alternatywnie, możesz ustawić inną prywatną wyszukiwarkę
+https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/
 
-https://addons.mozilla.org/pl/firefox/addon/privacytools-searx/
-https://addons.mozilla.org/en-US/firefox/addon/qwant-lite/
+```
+https://searx.site/?q=%s&categories=general&language=pl-PL
+```
+```
+https://www.mojeek.com/search?q=%s
+```
+```
+https://www.qwant.com/?q=%s
+```
+```
+https://yandex.pl/search/?text=%s
+```
 
 ## Wbudowana ochrona przed śledzeniem
 Firefox oferuje domyślnie **Standardową** ochronę przed śledzącymi skryptami, ciasteczkami czy kryptowalutami.  
