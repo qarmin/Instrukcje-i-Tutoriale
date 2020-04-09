@@ -255,6 +255,12 @@ https://addons.mozilla.org/pl/firefox/addon/polish-cookie-consent/
 
 https://majkiit.github.io/polish-ads-filter/docs/advanced/jak-zainstalowa%C4%87-nano-defender-na-firefoksie-waterfoksie-chroperze-albo-chrome/
 
+### Tab Stash
+
+Bezproblemowy sposób na zapisywanie i przywracanie partii zakładek jako zakładek. Oczyść karty, oczyść swój umysł.
+
+https://addons.mozilla.org/en-US/firefox/addon/tab-stash/
+
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
 Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:config` wraz z zalecanymi wartościami:
