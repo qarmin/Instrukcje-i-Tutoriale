@@ -240,8 +240,7 @@ https://addons.mozilla.org/en-US/firefox/addon/clearurls/
 
 ### Privacy Possum - Utrudnia śledzenie [*](https://github.com/ghacksuserjs/ghacks-user.js/wiki/4.1-Extensions#small_orange_diamond-dont-bother)
 
-Prywatność Possum sprawia, że śledzenie Ciebie jest mniej opłacalne. Firmy zbierają dane o Tobie, aby stworzyć asymetrię informacji, które wykorzystują do osiągania zysków w coraz bardziej ekspansywny sposób. Ich zysk pochodzi z Twojej niekorzystnej sytuacji informacyjnej. Prywatność Possum eliminuje powszechne komercyjne metody śledzenia poprzez redukcję i fałszowanie danych zebranych przez firmy śledzące.
-https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/
+Prywatność Possum sprawia, że śledzenie Ciebie jest mniej opłacalne. Firmy zbierają dane o Tobie, aby stworzyć asymetrię informacji, które wykorzystują do osiągania zysków w coraz bardziej ekspansywny sposób. Ich zysk pochodzi z Twojej niekorzystnej sytuacji informacyjnej. Prywatność Possum eliminuje powszechne komercyjne metody śledzenia poprzez redukcję i fałszowanie danych zebranych przez firmy śledzące. https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/
 
 ### Polska Ciasteczkowa Zgoda
 
@@ -257,9 +256,11 @@ https://majkiit.github.io/polish-ads-filter/docs/advanced/jak-zainstalowa%C4%87-
 
 ### Tab Stash
 
-Bezproblemowy sposób na zapisywanie i przywracanie partii zakładek jako zakładek. Oczyść karty, oczyść swój umysł.
+Bezproblemowy sposób na zapisywanie i przywracanie partii zakładek jako zakładek. Oczyść karty, oczyść swój umysł. https://addons.mozilla.org/en-US/firefox/addon/tab-stash/
 
-https://addons.mozilla.org/en-US/firefox/addon/tab-stash/
+### Simple Translate
+
+Szybkie tłumaczenie wybranego tekstu na stronie internetowej. W wyskakującym okienku na pasku narzędzi możesz przetłumaczyć wprowadzony tekst. https://addons.mozilla.org/pl/firefox/addon/simple-translate/
 
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
