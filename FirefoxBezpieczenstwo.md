@@ -155,7 +155,7 @@ W przypadku korzystania ze słabszego komputera polecam w tym miejscu włączeni
 
 ![S](https://user-images.githubusercontent.com/41945903/68149342-0d6fd980-ff3e-11e9-8d2a-a892a6e73fc1.png)
 
-Po naciśnięciu na czerwoną tarczę dodatku, powinien nam się ukazać dużo bardziej zaawansowany panel w którym to dodano możliwość ustawiania globalnych filtrów(po lewej stronie) stosowanych dla wszystkich witryn oraz lokalnych używanych jedynie na tej konkretnej stronie.
+Po naciśnięciu na czerwoną tarczę dodatku, powinien nam się ukazać dużo bardziej zaawansowany panel w którym to dodano kolumny ustawień. lewa to globalna (wszystkie strony), prawa to lokalna (tylko aktualna strona).
 
 Każdym zasobom z danej strony możemy przyporządkować stany oznaczone trzema kolorami:
 - **czerwony** - oznacza  blokadę określonego elementu/zasobu z danej strony np. ustawienie czerwonej blokady na właściwości **domeny zewnętrzne** - spowoduje, że na danej stronie będą blokowane wszelkie zasoby pochodzące z zewnętrznych witryn
