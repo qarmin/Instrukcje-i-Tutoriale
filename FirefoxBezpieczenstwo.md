@@ -173,7 +173,7 @@ Ustawienia o wyłączonych stronach są przechowywane do czasu ponownego uruchom
 
 Bardzo przydatną Ublocka, jest możliwość usunięcia ze strony poszczególnych elementów zwanych **elementami kosmetycznymi**. Możemy zablokować dowolny taki element bazując na jego nazwie, identyfikatorze, umiejscowieniu czy wielu innych atrybutach.
 
-Aktywować tę funkcję możemy poprzez naciśnięcie prawym przyciskiem myszy na ekran i wybranie opcji **Zablokuj element** lub w głównym panelu klikając na przycisk pod wyłączaniem Ublocka, podobny do strzykawki(niestety nie wiem jak to się fachowo nazywa)
+Aktywować tę funkcję możemy poprzez naciśnięcie prawym przyciskiem myszy na ekran i wybranie opcji **Zablokuj element** lub w głównym panelu pod ikoną rozszerzenia, klikając na przycisk podobny do próbnika.
 
 ![S](https://user-images.githubusercontent.com/41945903/68161262-c988ce80-ff55-11e9-828d-683a55e320a6.png)
 
