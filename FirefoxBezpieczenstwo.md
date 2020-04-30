@@ -75,10 +75,21 @@ Aby ją ustawić jako domyślną wyszukiwarkę należy przejść do ustawień i 
 
 ![S](https://user-images.githubusercontent.com/41945903/68150615-650f4480-ff40-11e9-84c2-2c15610ad419.png)
 
-Alternatywnie, możesz wybrać inną prywatną wyszukiwarkę
+Alternatywnie, możesz ustawić inną prywatną wyszukiwarkę
+https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/
 
-https://addons.mozilla.org/pl/firefox/addon/privacytools-searx/
-https://addons.mozilla.org/en-US/firefox/addon/qwant-lite/
+```
+https://searx.site/?q=%s&categories=general&language=pl-PL
+```
+```
+https://www.mojeek.com/search?q=%s
+```
+```
+https://www.qwant.com/?q=%s
+```
+```
+https://yandex.pl/search/?text=%s
+```
 
 ## Wbudowana ochrona przed śledzeniem
 Firefox oferuje domyślnie **Standardową** ochronę przed śledzącymi skryptami, ciasteczkami czy kryptowalutami.  
@@ -119,7 +130,7 @@ Następnie umożliwiamy działanie dodatku w oknach prywatnych.
 
 ![S](https://user-images.githubusercontent.com/41945903/68144976-0a242000-ff35-11e9-899c-0e575b3e20f3.png)
 
-Na sam początek pobierzemy oficjalne polskie filtry do Ublocka ze strony - https://github.com/MajkiIT/polish-ads-filter#about, klikając przy każdym filtrze przycisk **Subskrybuj**(niektóre się dublują, więc warto przeczytać adnotacje na dole strony).
+Na sam początek pobierzemy oficjalne polskie filtry do Ublocka ze strony - https://majkiit.github.io/polish-ads-filter/, klikając przy każdym filtrze przycisk **Subskrybuj**(niektóre się dublują, więc warto przeczytać adnotacje na dole strony).
 
 Następnie przechodzimy do ustawień dodatku do zakładki **Listy Filtrów**, gdzie znajdują się wszystkie dostępne filtry na tę chwilę.
 
@@ -229,14 +240,27 @@ https://addons.mozilla.org/en-US/firefox/addon/clearurls/
 
 ### Privacy Possum - Utrudnia śledzenie [*](https://github.com/ghacksuserjs/ghacks-user.js/wiki/4.1-Extensions#small_orange_diamond-dont-bother)
 
-Prywatność Possum sprawia, że śledzenie Ciebie jest mniej opłacalne. Firmy zbierają dane o Tobie, aby stworzyć asymetrię informacji, które wykorzystują do osiągania zysków w coraz bardziej ekspansywny sposób. Ich zysk pochodzi z Twojej niekorzystnej sytuacji informacyjnej. Prywatność Possum eliminuje powszechne komercyjne metody śledzenia poprzez redukcję i fałszowanie danych zebranych przez firmy śledzące.
-https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/
+Prywatność Possum sprawia, że śledzenie Ciebie jest mniej opłacalne. Firmy zbierają dane o Tobie, aby stworzyć asymetrię informacji, które wykorzystują do osiągania zysków w coraz bardziej ekspansywny sposób. Ich zysk pochodzi z Twojej niekorzystnej sytuacji informacyjnej. Prywatność Possum eliminuje powszechne komercyjne metody śledzenia poprzez redukcję i fałszowanie danych zebranych przez firmy śledzące. https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/
 
 ### Polska Ciasteczkowa Zgoda
 
 Rozszerzenie automatycznie akceptujące politykę ciasteczek/RODO na stronach dostępnych w języku polskim. Stanowi ono uzupełnienie [Polskich Filtrów Rodo-Ciasteczkowych](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/cookies_filters/adblock_cookies.txt&title=Polskie%20Filtry%20RODO-Ciasteczkowe) (wchodzących też w skład **Polskich Filtrów Elementów Irytujących**) oraz wymaganej przez nie listy [I don't care about cookies](https://subscribe.adblockplus.org/?location=https://www.i-dont-care-about-cookies.eu/abp/&title=I%20dont%20care%20about%20cookies).
 
 https://addons.mozilla.org/pl/firefox/addon/polish-cookie-consent/
+
+### Nano Defender
+
+[Nano Defender](https://github.com/jspenguin2017/uBlockProtector/releases) to połączenie skryptu [AAK](https://github.com/reek/anti-adblock-killer/wiki/AAK-Dead-and-Discontinued) z dodatkiem [uBlock Origin Extra](https://github.com/gorhill/uBO-Extra). Korzystając z Nano Defendera i [uBlocka Origin](https://github.com/gorhill/uBlock/releases) lub [Nano Adblockera](https://github.com/LiCybora/NanoCoreFirefox/releases) nie będziesz musiał przejmować się skryptami anty-adblock które uniemożliwiają dostępu do stron.
+
+https://majkiit.github.io/polish-ads-filter/docs/advanced/jak-zainstalowa%C4%87-nano-defender-na-firefoksie-waterfoksie-chroperze-albo-chrome/
+
+### Tab Stash
+
+Bezproblemowy sposób na zapisywanie i przywracanie partii zakładek jako zakładek. Oczyść karty, oczyść swój umysł. https://addons.mozilla.org/en-US/firefox/addon/tab-stash/
+
+### Simple Translate
+
+Szybkie tłumaczenie wybranego tekstu na stronie internetowej. W wyskakującym okienku na pasku narzędzi możesz przetłumaczyć wprowadzony tekst. https://addons.mozilla.org/pl/firefox/addon/simple-translate/
 
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
@@ -255,6 +279,7 @@ Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:conf
 - `network.security.esni.enabled = true` - Wsparcie szyfrowania dla SNI, które blokujące możliwość poznania stron które odwiedzamy.
 - `dom.battery.enabled = false` - Blokuje możliwość odczytu informacji o baterii
 - `plugins.enumerable_names = "puste pole"` - Zapobiega odczytywaniu listy dostępnych wtyczek
+- `security.tls.version.min = 2` - Skuteczniejsze szyfrowanie TLS 1.2
 
 Szablony user.js dla Firefox
 - ang [ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) - Trwający obszerny szablon user.js służący do konfigurowania i utwardzania prywatności, bezpieczeństwa i ochrony przed pobieraniem odcisków palców Firefoksa.
