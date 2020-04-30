@@ -18,9 +18,7 @@ All we have to do is enter the project directory and run Cppcheck there, or use 
 
 It has many kinds of results presentation, but for me the most convenient method is to export to html (shown in the example at the bottom)
 
-Example of integration with Gitlab CI
-
-Translated with www.DeepL.com/Translator (free version) - https://gitlab.com/qarmin/godot/-/blob/master/.gitlab-ci.yml#L48-59 
+Example of integration with Gitlab CI - https://gitlab.com/qarmin/godot/-/blob/master/.gitlab-ci.yml#L48-59 
 
 
 ### Sample Reports
