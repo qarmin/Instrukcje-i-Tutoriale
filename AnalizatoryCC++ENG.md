@@ -1,4 +1,4 @@
-# Useful tools for checking and developing C/C++ code (and more)
+# Useful tools for checking and fixing C/C++ code (and others languages too)
 
 
 Probably many of you have encountered errors which, although they were easy to fix (e.g. copy-paste bugs), were hidden in the code for months or years before they were fixed.  
