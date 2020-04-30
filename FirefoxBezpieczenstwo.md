@@ -75,11 +75,11 @@ Aby ją ustawić jako domyślną wyszukiwarkę należy przejść do ustawień i 
 
 ![S](https://user-images.githubusercontent.com/41945903/68150615-650f4480-ff40-11e9-84c2-2c15610ad419.png)
 
-Alternatywnie, możesz ustawić inną prywatną wyszukiwarkę
-https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/
-
+Alternatywnie, możesz ustawić inną prywatną wyszukiwarkę <br/>
+https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/ <br/>
+więcej instancji searx <code>https://searx.space/<code/>
 ```
-https://searx.site/?q=%s&categories=general&language=pl-PL
+https://search.privacytools.io/?q=%s&categories=general&language=pl-PL
 ```
 ```
 https://www.mojeek.com/search?q=%s
