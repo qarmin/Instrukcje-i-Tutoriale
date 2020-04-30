@@ -1,4 +1,4 @@
-Przydatne narzędzia przy sprawdzaniu i rozwijaniu kodu C/C++(i nie tylko)
+# Przydatne narzędzia przy sprawdzaniu i rozwijaniu kodu C/C++(i nie tylko)
 
 
 Zapewne wielu z was spotkało się z błędami, które mimo, że były proste do naprawienia(np. copy-paste bugs) to kryły się w kodzie przez miesiące lub lata zanim zostały naprawione.  
