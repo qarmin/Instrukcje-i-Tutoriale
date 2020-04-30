@@ -77,6 +77,7 @@ Aby ją ustawić jako domyślną wyszukiwarkę należy przejść do ustawień i 
 
 Alternatywnie, możesz ustawić inną prywatną wyszukiwarkę <br/>
 https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/ <br/>
+
 więcej instancji searx `https://searx.space/`
 
 ```
