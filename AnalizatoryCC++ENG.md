@@ -195,7 +195,7 @@ heaptrack ./rr.out
 heaptrack_gui /home/rafal/heaptrack.rr.out.50388.gz # File name should appear after the previous command
 ```
 
-## 8. GCC i Clang dynamiczne analizatory
+## 8. GCC i Clang dynamic analyzers
 Both GCC and Clang contain analyzers that check the program for malfunctions during operation.  
 Unlike Valgrind, they allow the program to run on many threads, which makes them usually faster (even several times).
 A program compiled with their help works even several times slower and takes up several times more RAM.
@@ -302,7 +302,7 @@ clang++ rr.cpp -o rr.out -fsanitize=thread  #LLVM
 ./rr.out
 ```
 
-## 9. Clang i GCC statyczne analizatory
+## 9. Clang i GCC static analyzers
 Clang and GCC from version 10 onwards also have static analyzers that can detect potential errors during compilation, which unfortunately extends the time needed for its execution.
 
 
