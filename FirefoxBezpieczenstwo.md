@@ -267,7 +267,7 @@ Szybkie tłumaczenie wybranego tekstu na stronie internetowej. W wyskakującym o
 ### Search by Image
 Search by Image jest rozszerzeniem do przeglądarki, które umożliwia inicjowanie wyszukiwania zwrotnego obrazu z menu kontekstowego po kliknięciu prawym przyciskiem myszy lub w pasku narzędzi przeglądarki i jest obsługiwane przez ponad 30 wyszukiwarek. https://github.com/dessant/search-by-image#readme
 
-# Rozszerzenia specyficzne dla YouTube
+### Rozszerzenia specyficzne dla YouTube
 https://github.com/pietervanheijningen/clickbait-remover-for-youtube<br/>
 https://github.com/lawfx/YoutubeNonStop#readme<br/>
 https://github.com/erkserkserks/h264ify#readme<br/>
