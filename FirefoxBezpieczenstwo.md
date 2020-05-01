@@ -264,6 +264,13 @@ Bezproblemowy sposób na zapisywanie i przywracanie partii zakładek jako zakła
 
 Szybkie tłumaczenie wybranego tekstu na stronie internetowej. W wyskakującym okienku na pasku narzędzi możesz przetłumaczyć wprowadzony tekst. https://addons.mozilla.org/pl/firefox/addon/simple-translate/
 
+# Rozszerzenia specyficzne dla YouTube
+https://github.com/pietervanheijningen/clickbait-remover-for-youtube<br/>
+https://github.com/lawfx/YoutubeNonStop#readme<br/>
+https://github.com/erkserkserks/h264ify#readme<br/>
+https://github.com/ajayyy/SponsorBlock#readme
+
+
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
 Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:config` wraz z zalecanymi wartościami:
