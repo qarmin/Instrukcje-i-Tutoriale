@@ -264,6 +264,9 @@ Bezproblemowy sposób na zapisywanie i przywracanie partii zakładek jako zakła
 
 Szybkie tłumaczenie wybranego tekstu na stronie internetowej. W wyskakującym okienku na pasku narzędzi możesz przetłumaczyć wprowadzony tekst. https://addons.mozilla.org/pl/firefox/addon/simple-translate/
 
+### Search by Image
+Search by Image jest rozszerzeniem do przeglądarki, które umożliwia inicjowanie wyszukiwania zwrotnego obrazu z menu kontekstowego po kliknięciu prawym przyciskiem myszy lub w pasku narzędzi przeglądarki i jest obsługiwane przez ponad 30 wyszukiwarek. https://github.com/dessant/search-by-image#readme
+
 # Rozszerzenia specyficzne dla YouTube
 https://github.com/pietervanheijningen/clickbait-remover-for-youtube<br/>
 https://github.com/lawfx/YoutubeNonStop#readme<br/>
