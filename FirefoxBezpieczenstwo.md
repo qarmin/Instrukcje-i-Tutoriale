@@ -51,7 +51,7 @@ https://www.privacytools.io/providers/dns/#dns https://gist.github.com/ookangzhe
 
 ![S](https://user-images.githubusercontent.com/41945903/68145118-5a02e700-ff35-11e9-8f3b-5a494cfa15e9.png)
 
-Jeśli jednak możesz w **about:config**, wpisz **network.trr.mode** i ustaw na **2**
+Aby zwiększyć jakość szyfrowania - w **about:config**, wpisz **network.trr.mode** i ustaw na **2**
 
 ![s](https://www.ghacks.net/wp-content/uploads/2018/04/firefox-network-trr-dns-over-https.png)
 
