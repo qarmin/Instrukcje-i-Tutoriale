@@ -271,6 +271,8 @@ Search by Image jest rozszerzeniem do przeglądarki, które umożliwia inicjowan
 Oficjalna wtyczka do przeglądarki dla menedżera haseł KeePassXC 
 https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/
 
+Sprawdź czy twoje dane są bezpieczne https://haveibeenpwned.com/
+
 ### Rozszerzenia specyficzne dla YouTube
 https://github.com/pietervanheijningen/clickbait-remover-for-youtube<br/>
 https://github.com/lawfx/YoutubeNonStop#readme<br/>
