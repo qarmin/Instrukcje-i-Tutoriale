@@ -273,6 +273,12 @@ https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/
 
 Sprawdź czy twoje dane są bezpieczne https://haveibeenpwned.com/
 
+### Violentmonkey
+Violentmonkey zapewnia obsługę skryptów użytkownika dla przeglądarek. Działa na przeglądarkach z obsługą WebExtensions. Obsługuje większość skryptów dla Greasemonkey i Tampermonkey. https://addons.mozilla.org/pl/firefox/addon/violentmonkey/
+
+### Stylus
+Zmień swoją ulubioną witrynę internetową za pomocą Stylusa, aktywnie rozwijanego i zarządzanego przez społeczność menedżera stylów użytkownika. Łatwo instaluj niestandardowe motywy z popularnych repozytoriów online lub twórz, edytuj i zarządzaj własnymi spersonalizowanymi arkuszami stylów CSS. https://addons.mozilla.org/pl/firefox/addon/styl-us/
+
 ### Rozszerzenia specyficzne dla YouTube
 https://github.com/pietervanheijningen/clickbait-remover-for-youtube<br/>
 https://github.com/lawfx/YoutubeNonStop#readme<br/>
