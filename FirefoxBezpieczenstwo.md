@@ -26,7 +26,7 @@ lub zafundować mi kawę
   - [Ublock Origin](#ublock-origin---blokowanie-reklam)
   - [HTTPS Everywhere](#https-everywhere---szyfrowana-sieć)
   - [AdNauseum](#adnauseum---dezorientowanie-reklamodawców)
-  - [Decentraleyes](#decentraleyes)
+  - [Decentraleyes](#decentraleyes---blokowanie-śledzenia-przez-cdn)
   - [Containers](#containers---zamykanie-stron-w-kontenery) 
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
