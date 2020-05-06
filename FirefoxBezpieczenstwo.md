@@ -130,7 +130,7 @@ Następnie umożliwiamy działanie dodatku w oknach prywatnych.
 
 ![S](https://user-images.githubusercontent.com/41945903/68144976-0a242000-ff35-11e9-899c-0e575b3e20f3.png)
 
-Na sam początek pobierzemy oficjalne polskie filtry do Ublocka ze strony - https://majkiit.github.io/polish-ads-filter/, klikając przy każdym filtrze przycisk **Subskrybuj** `(niektóre się dublują, więc warto przeczytać adnotacje na dole strony)`
+Na sam początek pobierzemy oficjalne polskie filtry do uBlocka ze strony - https://majkiit.github.io/polish-ads-filter/, klikając przy każdym filtrze przycisk **Subskrybuj** `(niektóre się dublują, więc warto przeczytać adnotacje na dole strony)`
 
 Następnie przechodzimy w ustawieniach rozszerzenia uBlock Origin do zakładki **Listy Filtrów**, gdzie znajdują się wszystkie dostępne filtry na tę chwilę. `(niektóre sekcje mogą być ukryte, ale wystarczy kliknąć + aby rozwinąć)`
 
