@@ -78,17 +78,24 @@ curl https://scan.coverity.com/builds?project=$COVERITY_SCAN_PROJECT_NAME --form
 
 ```
 ## 4. PVS Studio
-A commercial static analyser to check the code offline (internet is probably required when checking the licence).  
-It has a free weekly trial version which can be requested at https://www.viva64.com/en/pvs-studio-download/.  
-It also has a free version for open source projects, but this requires you to add a comment to each file:
+PVS-Studio is a commercial static code analyzer for detecting typos, errors, and security weaknesses. The analyzer can check the source code offline, i.e. completely isolated from the internet. This is useful for projects with special security and code leakage protection requirements.
 
-// This is an open source non-commercial project. Dear PVS-Studio, please check it.
-// PVS-Studio Static Code Analyzer for C, C++, C#, and Java: http://www.viva64.com
+PVS-Studio runs on Windows, Linux, macOS environments. It supports integration with such systems as Azure DevOps, Travis CI, CircleCI, GitLab CI/CD, PlatformIO, Jenkins, SonarQube, Visual Studio and others. A scenario has been developed for the rapid analyzer introduction even in a large old project, which is described, for example, in this [article](https://www.viva64.com/en/b/0687/).
 
-which of course scares a lot of people away, including me.  
-Nevertheless, it is probably one of the best static analyzers.
+You can download the analyzer and request a one-week trial license by following the link: https://www.viva64.com/en/pvs-studio-download/
 
-I used the free trial version somewhere around a year ago, so I don't have my own reports at hand and the list of steps to scan the project may be a bit outdated.
+Although the analyzer is positioned as a B2B solution, many developers can use it for free both in open source and even in closed source  projects.
+
+**Open source projects.** PVS-Studio can be used free of charge by developers involved in the development of projects hosted on GitHub, GitLab, or Bitbucket. A free license doesn't extend to projects' mirrors. It is possible to get a free license for a period of 1 year:
+* Go to the page: https://www.viva64.com/en/open-source-license/
+* Enter the name and the e-mail, where you will be sent the license key;
+* Enter the link to your GitHub / GitLab / Bitbucket profile;
+* Send a request for the free license.
+* Upon expiration of the license, you can get a new license key in the same way.
+
+Additional details of this type of free licensing are described in the article ["Free PVS-Studio for those who develops open source projects"](https://www.viva64.com/en/b/0600/).
+
+**Closed source and academic projects.** For such projects, an alternative option for free licensing is suitable, based on appending comments of a special kind to the analyzed source code. Although such comments may be unacceptable in large enterprise projects, individual developers may well add them to their own projects. This type of free licensing is described in more detail in the article ["How to use PVS-Studio for Free"](https://www.viva64.com/en/b/0457/).
 
 ### Sample Report
 Sample Report from the Wine check, together with an explanation of the errors can be found here - https://www.viva64.com/en/b/0352/
