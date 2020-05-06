@@ -134,7 +134,7 @@ Następnie umożliwiamy działanie dodatku w oknach prywatnych.
 
 Na sam początek pobierzemy oficjalne polskie filtry do Ublocka ze strony - https://majkiit.github.io/polish-ads-filter/, klikając przy każdym filtrze przycisk **Subskrybuj** `(niektóre się dublują, więc warto przeczytać adnotacje na dole strony)`
 
-Następnie przechodzimy do ustawień dodatku do zakładki **Listy Filtrów**, gdzie znajdują się wszystkie dostępne filtry na tę chwilę.
+Następnie przechodzimy w ustawieniach rozszerzenia uBlock Origin do zakładki **Listy Filtrów**, gdzie znajdują się wszystkie dostępne filtry na tę chwilę. `(niektóre sekcje mogą być ukryte, ale wystarczy kliknąć + aby rozwinąć)`
 
 Zalecam, dla skutecznej ochrony, włączyć wszystkie filtry takie jakie występują na obrazku.  
 Należy jednak pamiętać, że im więcej filtrów, tym większe wykorzystanie pamięci ram oraz procesora i dlatego należy zachować ich ilości.
