@@ -137,7 +137,7 @@ Na sam początek pobierzemy oficjalne polskie filtry do Ublocka ze strony - http
 Następnie przechodzimy do ustawień dodatku do zakładki **Listy Filtrów**, gdzie znajdują się wszystkie dostępne filtry na tę chwilę.
 
 Zalecam, dla skutecznej ochrony, włączyć wszystkie filtry takie jakie występują na obrazku.  
-Należy jednak pamiętać, że im więcej filtrów, tym większe wykorzystanie pamięci ram i dlatego należy zachować ich ilości.
+Należy jednak pamiętać, że im więcej filtrów, tym większe wykorzystanie pamięci ram oraz procesora i dlatego należy zachować ich ilości.
 
 ![S](https://user-images.githubusercontent.com/41945903/68148430-46a74a00-ff3c-11e9-97b1-ad4e71437edb.png)
 
