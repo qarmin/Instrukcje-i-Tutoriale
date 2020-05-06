@@ -25,7 +25,6 @@ lub zafundować mi kawę
 - [Wtyczki](#wtyczki)
   - [uBlock Origin](#ublock-origin---blokowanie-reklam)
   - [HTTPS Everywhere](#https-everywhere---szyfrowana-sieć)
-  - [AdNauseum](#adnauseum---dezorientowanie-reklamodawców)
   - [Decentraleyes](#decentraleyes---blokowanie-śledzenia-przez-cdn)
   - [Containers](#containers---zamykanie-stron-w-kontenery) 
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
@@ -198,12 +197,6 @@ W przypadku gdy chcemy zwiększyć własne bezpieczeństwo i uniemożliwić pods
 W przypadku gdy akurat strona na którą musimy wejść przesyłana jest bez szyfrowania i blokowana przez dodatek, możemy zrobić dla niej wyjątek poprzez naciśnięcie na przycisk **Wyłącz HTTPS Everywhere na tej stronie**
 
 ![S](https://user-images.githubusercontent.com/41945903/68146009-55d7c900-ff37-11e9-9696-44995ee0d79e.png)
-
-### AdNauseum - Dezorientowanie reklamodawców
-Jeśli tak bardzo was denerwuje to, że strony zbierają o was wszelkie dostępne informacje, możecie namieszać nieco w ich danych używając dodatku AdNauserum, instalując go ze strony https://addons.mozilla.org/en-US/firefox/addon/adnauseam/.  
-Dodatek ten bazuje na Ublock Origin dzięki czemu umożliwia blokowanie i ukrywanie reklam oraz dodatkowo symuluje kliknięcia w nie, dzięki czemu skutecznie dezorientuje szpiegów.
-
-![S](https://user-images.githubusercontent.com/41945903/68145927-2c1ea200-ff37-11e9-8def-5638190000a9.png)
 
 ### Decentraleyes - Blokowanie śledzenia przez CDN
 Decentraleyes jest dodatkiem umożliwiającym blokowanie śledzenia przez CDN(Content Networks Delivery).  
