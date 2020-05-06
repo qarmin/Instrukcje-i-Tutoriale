@@ -284,6 +284,11 @@ Możesz zmienić ciąg znaków user-agenta, aby wskazać, że jesteś na urządz
 Więcej ciekawych user-agentów https://www.whatismybrowser.com/guides/the-latest-user-agent/
 https://www.whatismybrowser.com/detect/what-is-my-user-agent
 
+### CSS Exfil Protection
+CSS Exfil jest metodą, którą atakujący mogą wykorzystać do kradzieży danych ze stron internetowych za pomocą kaskadowych arkuszy stylów (CSS). Ten plugin odkaża i blokuje wszelkie reguły CSS, które mogą być przeznaczone do kradzieży danych. https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/
+
+Sprawdź podatność https://www.mike-gualtieri.com/css-exfil-vulnerability-tester
+
 ### Rozszerzenia specyficzne dla YouTube
 https://github.com/pietervanheijningen/clickbait-remover-for-youtube<br/>
 https://github.com/lawfx/YoutubeNonStop#readme<br/>
