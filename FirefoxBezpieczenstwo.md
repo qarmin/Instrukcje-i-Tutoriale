@@ -23,7 +23,7 @@ lub zafundować mi kawę
 - [Wbudowana ochrona przed śledzeniem](#wbudowana-ochrona-przed-śledzeniem)
 - [Uprawnienia stron internetowych](#uprawnienia-stron-internetowych)
 - [Wtyczki](#wtyczki)
-  - [Ublock Origin](#ublock-origin---blokowanie-reklam)
+  - [uBlock Origin](#ublock-origin---blokowanie-reklam)
   - [HTTPS Everywhere](#https-everywhere---szyfrowana-sieć)
   - [AdNauseum](#adnauseum---dezorientowanie-reklamodawców)
   - [Decentraleyes](#decentraleyes---blokowanie-śledzenia-przez-cdn)
@@ -120,11 +120,11 @@ Domyślnie Firefox blokuje autoodtwarzanie dźwięku na stronach, lecz w ustawie
 ![S](https://user-images.githubusercontent.com/41945903/68152232-8de50900-ff43-11e9-9f98-3011b3a87f70.png)
 
 ## Wtyczki
-### Ublock Origin - Blokowanie Reklam
-Zapewne wiele osób kojarzy Ublock Origin tylko jako narzędzie do blokowania reklam. Ublock Origin ma jednak o wiele więcej możliwości a mianowicie blokowanie skryptów JavaScript, czcionek sieciowych, ramek z informacjami o ciasteczkach i RODO, stron z wirusami i malware lub wykorzystywanych do oszukiwania ludzi. Czas ładowania niektórych stron, dzięki użyciu Ublock Origin, może przyspieszyć ładowanie stron nawet kilkukrotnie `(najlepszym przykładem jest serwis wykop.pl - http://www.wykop.pl/artykul/5173213/test-ublock-origin-na-stronach-internetowych-zuzycie-ram-i-czas-ladowania/)`
+### uBlock Origin - Blokowanie Reklam
+Zapewne wiele osób kojarzy uBlock Origin tylko jako narzędzie do blokowania reklam. uBlock Origin ma jednak o wiele więcej możliwości a mianowicie blokowanie skryptów JavaScript, czcionek sieciowych, ramek z informacjami o ciasteczkach i RODO, stron z wirusami i malware lub wykorzystywanych do oszukiwania ludzi. Czas ładowania niektórych stron, dzięki użyciu Ublock Origin, może przyspieszyć ładowanie stron nawet kilkukrotnie `(najlepszym przykładem jest serwis wykop.pl - http://www.wykop.pl/artykul/5173213/test-ublock-origin-na-stronach-internetowych-zuzycie-ram-i-czas-ladowania/)`
 
 #### Dla początkujących
-Na początek należy zainstalować Ublock Origin z oficjalnej strony z dodatkami Mozilli - https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
+Na początek należy zainstalować uBlock Origin z oficjalnej strony z dodatkami Mozilli - https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
 
 Następnie umożliwiamy działanie dodatku w oknach prywatnych.
 
@@ -153,7 +153,7 @@ W przypadku korzystania ze słabszego komputera polecam w tym miejscu włączeni
 
 ![S](https://user-images.githubusercontent.com/41945903/68149342-0d6fd980-ff3e-11e9-8d2a-a892a6e73fc1.png)
 
-Po naciśnięciu na czerwoną tarczę dodatku, powinien nam się ukazać dużo bardziej zaawansowany panel w którym to dodano kolumny ustawień. lewa to globalna (wszystkie strony), prawa to lokalna (tylko aktualna strona).
+Po naciśnięciu na czerwoną tarczę dodatku, powinien nam się ukazać dużo bardziej zaawansowany panel w którym to dodano kolumny ustawień. Lewa to globalna `(wszystkie strony)`, prawa to lokalna `(tylko aktualna strona)`
 
 Każdym zasobom z danej strony możemy przyporządkować stany oznaczone trzema kolorami:
 - **czerwony** - oznacza  blokadę określonego elementu/zasobu z danej strony np. ustawienie czerwonej blokady na właściwości **domeny zewnętrzne** - spowoduje, że na danej stronie będą blokowane wszelkie zasoby pochodzące z zewnętrznych witryn
@@ -162,14 +162,13 @@ Każdym zasobom z danej strony możemy przyporządkować stany oznaczone trzema 
 
 ![S](https://user-images.githubusercontent.com/41945903/68149440-32fce300-ff3e-11e9-94e2-5af2548d3528.png)
 
-Ublock Origin w swojej instukcji wskazuje, że można wyłączyć skrypty i ramki z zewnętrznych witryn co powinno zwiększyć bezpieczeństwo użytkownika i nie powinno zbytnio zepsuć stron, lecz w razie konieczności można dla konkretnej strony wyłączyć to ustawienie.
-
+uBlock Origin w swojej instukcji wskazuje, że można wyłączyć skrypty i ramki z zewnętrznych witryn co powinno zwiększyć bezpieczeństwo użytkownika i nie powinno zbytnio zepsuć stron, lecz w razie konieczności można dla konkretnej strony wyłączyć to ustawienie.
 
 Ustawienia o wyłączonych stronach są przechowywane do czasu ponownego uruchomienia przeglądarki, więc aby zapisać zmiany należy nacisnąć po lewej stronie na górze panlelu na kłódkę, a aby przywrócić je do wcześniej zapisanego stanu na gumkę.
 
 ##### Filtry kosmetyczne
 
-Bardzo przydatną Ublocka, jest możliwość usunięcia ze strony poszczególnych elementów zwanych **elementami kosmetycznymi**. Możemy zablokować dowolny taki element bazując na jego nazwie, identyfikatorze, umiejscowieniu czy wielu innych atrybutach.
+Bardzo przydatną uBlocka, jest możliwość usunięcia ze strony poszczególnych elementów zwanych **elementami kosmetycznymi**. Możemy zablokować dowolny taki element bazując na jego nazwie, identyfikatorze, umiejscowieniu czy wielu innych atrybutach.
 
 Aktywować tę funkcję możemy poprzez naciśnięcie prawym przyciskiem myszy na ekran i wybranie opcji **Zablokuj element** lub w głównym panelu pod ikoną rozszerzenia, klikając na przycisk podobny do próbnika.
 
