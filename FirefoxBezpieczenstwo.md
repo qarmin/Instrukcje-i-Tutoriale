@@ -276,6 +276,12 @@ Violentmonkey zapewnia obsługę skryptów użytkownika dla przeglądarek. Dzia�
 ### Stylus
 Zmień swoją ulubioną witrynę internetową za pomocą Stylusa, aktywnie rozwijanego i zarządzanego przez społeczność menedżera stylów użytkownika. Łatwo instaluj niestandardowe motywy z popularnych repozytoriów online lub twórz, edytuj i zarządzaj własnymi spersonalizowanymi arkuszami stylów CSS. https://addons.mozilla.org/pl/firefox/addon/styl-us/
 
+### User Agent Switcher and Manager
+Możesz zmienić ciąg znaków user-agenta, aby wskazać, że jesteś na urządzeniu mobilnym, jeśli chcesz oglądać mobilne wersje stron, aby ładowały się szybciej. https://addons.mozilla.org/pl/firefox/addon/user-agent-string-switcher/
+
+Więcej ciekawych user-agentów https://www.whatismybrowser.com/guides/the-latest-user-agent/
+https://www.whatismybrowser.com/detect/what-is-my-user-agent
+
 ### Rozszerzenia specyficzne dla YouTube
 https://github.com/pietervanheijningen/clickbait-remover-for-youtube<br/>
 https://github.com/lawfx/YoutubeNonStop#readme<br/>
