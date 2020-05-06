@@ -143,6 +143,8 @@ W przypadku gdy dana strona nie będzie działała możemy wyłączyć na niej U
 
 ![S](https://user-images.githubusercontent.com/41945903/68148620-a7368700-ff3c-11e9-9934-d52fabf0b16b.png)
 
+Jak zrobić kopie zapasową ustawionych filtrów https://majkiit.github.io/polish-ads-filter/docs/basic/ubo-backup/
+
 #### Dla zaawansowanych
 Na początek musimy odblokować ustawienia zaawansowane w Ublocku, które umożliwią dostosowanie blokowania poszczególnych elementów na stronach.  
 Znajdują się one w głównym menu ustawień.
