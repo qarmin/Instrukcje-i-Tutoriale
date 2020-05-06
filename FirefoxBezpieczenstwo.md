@@ -23,11 +23,11 @@ lub zafundować mi kawę
 - [Wbudowana ochrona przed śledzeniem](#wbudowana-ochrona-przed-śledzeniem)
 - [Uprawnienia stron internetowych](#uprawnienia-stron-internetowych)
 - [Wtyczki](#wtyczki)
- - [Ublock Origin](#ublock-origin---blokowanie-reklam)
- - [HTTPS Everywhere](#https-everywhere---szyfrowana-sieć)
- - [AdNauseum](#adnauseum---dezorientowanie-reklamodawców)
- - [Decentraleyes](#decentraleyes)
- - [Containers](#containers---zamykanie-stron-w-kontenery)
+  - [Ublock Origin](#ublock-origin---blokowanie-reklam)
+  - [HTTPS Everywhere](#https-everywhere---szyfrowana-sieć)
+  - [AdNauseum](#adnauseum---dezorientowanie-reklamodawców)
+  - [Decentraleyes](#decentraleyes)
+  - [Containers](#containers---zamykanie-stron-w-kontenery) 
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
 ## Kilka zasad bezpieczeństwa
