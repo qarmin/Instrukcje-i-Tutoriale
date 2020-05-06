@@ -137,7 +137,7 @@ Następnie przechodzimy w ustawieniach rozszerzenia uBlock Origin do zakładki *
 Zalecam, dla skutecznej ochrony, włączyć wszystkie filtry takie jakie występują na obrazku.  
 Należy jednak pamiętać, że im więcej filtrów, tym większe wykorzystanie pamięci ram oraz procesora i dlatego należy zachować ich ilości.
 
-![S](https://user-images.githubusercontent.com/41945903/68148430-46a74a00-ff3c-11e9-97b1-ad4e71437edb.png)
+![S](https://user-images.githubusercontent.com/5884000/81131945-238e3f00-8f4d-11ea-9720-3f81a917333e.png)
 
 W przypadku gdy dana strona nie będzie działała możemy wyłączyć na niej Ublock Origin, za pomocą tego niebieskiego przycisku, którym to możemy również ponownie włączyć ochronę przed reklamami.
 
