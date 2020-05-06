@@ -38,6 +38,7 @@ lub zafundować mi kawę
   - [Violentmonkey](#violentmonkey)
   - [Stylus](#stylus)
   - [User Agent Switcher](#user-agent-switcher-and-manager)
+  - [CSS Exfil Protection](#css-exfil-protection)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
 ## Kilka zasad bezpieczeństwa
