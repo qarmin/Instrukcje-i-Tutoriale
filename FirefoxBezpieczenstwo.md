@@ -41,13 +41,13 @@ lub zafundować mi kawę
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
 ## Kilka zasad bezpieczeństwa
-- Instaluj oprogramowanie otwartoźródłowe zamiast własnościowego gdy tylko masz taką możliwość
+- Instaluj oprogramowanie [otwartoźródłowe](https://github.com/qarmin/Rewelacyjne-OpenSource#readme) zamiast własnościowego gdy tylko masz taką możliwość
 - Nie otwieraj plików z nieznanych źródeł, a jeśli musisz to przeskanuj je w serwisie https://www.virustotal.com
 - Nie udostępniaj nikomu swoich danych osobowych takich jak nazwisko czy miejsce zamieszkania
 - Nie loguj się na swoje konta, na urządzeniach co do których nie masz pewności, że nie są zarażone wirusem
 - Staraj się instalować programy ze stron domowej ich producenta lub ze sklepów z oprogramowaniem
 - Na Windowsie korzystaj z oprogramowania antywirusowego i [zapory](https://github.com/henrypp/simplewall/releases)
-- Na Linuxie korzystaj z [sandboxa](https://github.com/netblue30/firejail#readme) i ufw
+- Na [Linuxie](https://github.com/qarmin/GNU-Linux-Podstawy#readme) korzystaj z [sandboxa](https://github.com/netblue30/firejail#readme) i ufw
 - Nie wpisuj swoich danych logowania na stronach nieobsługujących szyfrowania
 - Stosuj unikalne hasła dla każdego serwisu, najlepiej korzystając z (menedżera haseł](#keepassxc)
 - Nie wpinaj do swojego komputera pendrivów i dysków nieznanego pochodzenia
