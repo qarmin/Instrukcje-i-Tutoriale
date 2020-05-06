@@ -189,7 +189,7 @@ Zarówno stopka jak i informacje o autorze nie są mi wcale potrzebne, więc je 
 
 ![S](https://user-images.githubusercontent.com/41945903/68183488-e4cafc80-ff9c-11e9-8ab2-ebc28d765755.png)
 
-W razie potrzeby można zablokować/odblokować wyświetlanie elementów kosmetycznych, klikając na przekreślone oko w głównym panelu Ublocka. `(czasami pomaga też na "lekkie" anty adbloki)`
+W razie potrzeby można zablokować/odblokować wyświetlanie elementów kosmetycznych, klikając na przekreślone oko w głównym panelu uBlocka Origin. `(czasami pomaga też na "lekkie" anty-adbloki)`
 Listę własnych filtrów można przeglądać i modyfikować na stronie ustawień Ublocka w zakładce **Moje filtry** oraz **Moje reguły**
 
 
