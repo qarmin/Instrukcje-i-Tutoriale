@@ -60,7 +60,7 @@ https://www.privacytools.io/providers/dns/#dns https://gist.github.com/ookangzhe
 
 ![S](https://user-images.githubusercontent.com/41945903/68145118-5a02e700-ff35-11e9-8f3b-5a494cfa15e9.png)
 
-Aby zwiększyć jakość szyfrowania - w **about:config**, wpisz **network.trr.mode** i ustaw na **2** `(może powodować problemy ze stronami które nie wspierają silnego szyfrowania tls 1.2)`
+Aby zwiększyć skuteczność szyfrowania - w **about:config**, wpisz **network.trr.mode** i ustaw na **2**
 
 ![s](https://www.ghacks.net/wp-content/uploads/2018/04/firefox-network-trr-dns-over-https.png)
 
@@ -306,7 +306,7 @@ Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:conf
 - `network.security.esni.enabled = true` - Wsparcie szyfrowania dla SNI, które blokujące możliwość poznania stron które odwiedzamy.
 - `dom.battery.enabled = false` - Blokuje możliwość odczytu informacji o baterii
 - `plugins.enumerable_names = "puste pole"` - Zapobiega odczytywaniu listy dostępnych wtyczek
-- `security.tls.version.min = 2` - Skuteczniejsze szyfrowanie TLS 1.2
+- `security.tls.version.min = 2` - Skuteczniejsze szyfrowanie TLS 1.2 `(może powodować problemy ze stronami które nie wspierają silnego szyfrowania tls 1.2)`
 
 Szablony user.js dla Firefox
 - ang [ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) - Trwający obszerny szablon user.js służący do konfigurowania i utwardzania prywatności, bezpieczeństwa i ochrony przed pobieraniem odcisków palców Firefoksa.
