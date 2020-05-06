@@ -121,9 +121,7 @@ Domyślnie Firefox blokuje autoodtwarzanie dźwięku na stronach, lecz w ustawie
 
 ## Wtyczki
 ### Ublock Origin - Blokowanie Reklam
-Zapewne wiele osób kojarzy Ublock Origin tylko jako narzędzie do blokowania reklam.  
-Ublock Origin ma jednak o wiele więcej możliwości a mianowicie blokowanie skryptów JavaScript, czcionek sieciowych, ramek z informacjami o ciasteczkach i RODO, stron z wirusami i malware lub wykorzystywanych do oszukiwania ludzi.  
-Czas ładowania niektórych stron, dzięki użyciu Ublock Origin, może przyspieszyć ładowanie stron nawet kilkukrotnie(najlepszym przykładem jest serwis wykop.pl - http://www.wykop.pl/artykul/5173213/test-ublock-origin-na-stronach-internetowych-zuzycie-ram-i-czas-ladowania/)
+Zapewne wiele osób kojarzy Ublock Origin tylko jako narzędzie do blokowania reklam. Ublock Origin ma jednak o wiele więcej możliwości a mianowicie blokowanie skryptów JavaScript, czcionek sieciowych, ramek z informacjami o ciasteczkach i RODO, stron z wirusami i malware lub wykorzystywanych do oszukiwania ludzi. Czas ładowania niektórych stron, dzięki użyciu Ublock Origin, może przyspieszyć ładowanie stron nawet kilkukrotnie `(najlepszym przykładem jest serwis wykop.pl - http://www.wykop.pl/artykul/5173213/test-ublock-origin-na-stronach-internetowych-zuzycie-ram-i-czas-ladowania/)`
 
 #### Dla początkujących
 Na początek należy zainstalować Ublock Origin z oficjalnej strony z dodatkami Mozilli - https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
