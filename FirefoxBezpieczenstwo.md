@@ -93,9 +93,6 @@ więcej instancji searx `https://searx.space/`
 https://search.privacytools.io/?q=%s&categories=general&language=pl-PL
 ```
 ```
-https://www.mojeek.com/search?q=%s
-```
-```
 https://www.qwant.com/?q=%s
 ```
 ```
