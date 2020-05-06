@@ -48,7 +48,7 @@ lub zafundować mi kawę
 - Staraj się instalować programy ze stron domowej ich producenta lub ze sklepów z oprogramowaniem
 - Na Windowsie korzystaj z oprogramowania antywirusowego i [zapory](https://github.com/henrypp/simplewall/releases)
 - Na Linuxie korzystaj z [sandboxa](https://github.com/netblue30/firejail#readme) i ufw
-- Nie wpisuj swoich danych logowania na stronach nieobsługujących szyfrowania.
+- Nie wpisuj swoich danych logowania na stronach nieobsługujących szyfrowania
 - Stosuj unikalne hasła dla każdego serwisu, najlepiej korzystając z menedżera haseł
 - Nie wpinaj do swojego komputera pendrivów i dysków nieznanego pochodzenia
 
