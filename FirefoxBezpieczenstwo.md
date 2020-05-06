@@ -26,7 +26,17 @@ lub zafundować mi kawę
   - [uBlock Origin](#ublock-origin---blokowanie-reklam)
   - [HTTPS Everywhere](#https-everywhere---szyfrowana-sieć)
   - [Decentraleyes](#decentraleyes---blokowanie-śledzenia-przez-cdn)
-  - [Containers](#containers---zamykanie-stron-w-kontenery) 
+  - [Containers](#containers---zamykanie-stron-w-kontenery)
+  - [Canvas Blocker](#canvas-blocker-fingerprint-protect---zmiana-odcisku-palca)
+  - [Privacy Possum](#privacy-possum---utrudnia-śledzenie-)
+  - [Polska Ciasteczkowa Zgoda](#polska-ciasteczkowa-zgoda)
+  - [Nano Defender](#nano-defender)
+  - [Tab Stash](#tab-stash)
+  - [Simple Translate](#simple-translate)
+  - [Search by Image](#search-by-image)
+  - [KeePassXC](#keepassxc)
+  - [Violentmonkey](#violentmonkey)
+  - [Stylus](#stylus)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
 ## Kilka zasad bezpieczeństwa
