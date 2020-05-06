@@ -134,12 +134,11 @@ Na sam początek pobierz oficjalne polskie filtry do uBlocka Origin ze strony - 
 
 Następnie przechodzimy w ustawieniach rozszerzenia uBlock Origin do zakładki **Listy Filtrów**, gdzie znajdują się wszystkie dostępne filtry na tę chwilę. `(niektóre sekcje mogą być ukryte, ale wystarczy kliknąć + aby rozwinąć)`
 
-Zalecam, dla skutecznej ochrony, włączyć wszystkie filtry takie jakie występują na obrazku.  
-Należy jednak pamiętać, że im więcej filtrów, tym większe wykorzystanie pamięci ram oraz procesora i dlatego należy zachować ich ilości.
+Dla skutecznej ochrony, włącz wszystkie filtry takie jak występują na obrazku.
 
 ![S](https://user-images.githubusercontent.com/5884000/81131945-238e3f00-8f4d-11ea-9720-3f81a917333e.png)
 
-W przypadku gdy dana strona nie będzie działała możemy wyłączyć na niej Ublock Origin, za pomocą tego niebieskiego przycisku, którym to możemy również ponownie włączyć ochronę przed reklamami.
+Nie jest jednak zalecane dla początkujących użytkowników włączanie wszystkich list filtrów. Może to powodować problemy z działaniem stron, które trzeba będzie zgłosić opiekunom list filtrów. Można też wyłączyć uBlock Origin na stronie powodującej awarie, za pomocą tego niebieskiego przycisku pod ikoną rozszerzenia - którym to możemy również ponownie włączyć ochronę przed reklamami.
 
 ![S](https://user-images.githubusercontent.com/41945903/68148620-a7368700-ff3c-11e9-9934-d52fabf0b16b.png)
 
