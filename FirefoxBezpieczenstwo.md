@@ -28,7 +28,7 @@ lub zafundować mi kawę
   - [Decentraleyes](#decentraleyes---blokowanie-śledzenia-przez-cdn)
   - [Containers](#containers---zamykanie-stron-w-kontenery)
   - [Canvas Blocker](#canvas-blocker-fingerprint-protect---zmiana-odcisku-palca)
-  - [Privacy Possum](#privacy-possum---utrudnia-śledzenie-)
+  - [Privacy Possum](#privacy-possum---utrudnia-śledzenie)
   - [Polska Ciasteczkowa Zgoda](#polska-ciasteczkowa-zgoda)
   - [Nano Defender](#nano-defender)
   - [Tab Stash](#tab-stash)
@@ -241,9 +241,11 @@ aby przetestować, wejdź na https://browserleaks.com/canvas
 Usuwanie elementów śledzących, z linków przekierowywujących pomiędzy odwiedzanymi domenami
 https://addons.mozilla.org/en-US/firefox/addon/clearurls/
 
-### Privacy Possum - Utrudnia śledzenie [*](https://github.com/ghacksuserjs/ghacks-user.js/wiki/4.1-Extensions#small_orange_diamond-dont-bother)
+### Privacy Possum - Utrudnia śledzenie
 
-Prywatność Possum sprawia, że śledzenie Ciebie jest mniej opłacalne. Firmy zbierają dane o Tobie, aby stworzyć asymetrię informacji, które wykorzystują do osiągania zysków w coraz bardziej ekspansywny sposób. Ich zysk pochodzi z Twojej niekorzystnej sytuacji informacyjnej. Prywatność Possum eliminuje powszechne komercyjne metody śledzenia poprzez redukcję i fałszowanie danych zebranych przez firmy śledzące. https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/
+Prywatność Possum sprawia, że śledzenie Ciebie jest mniej opłacalne. Firmy zbierają dane o Tobie, aby stworzyć asymetryczną informacje, które wykorzystują do osiągania zysków w coraz bardziej ekspansywny sposób. Ich zysk pochodzi z Twojej niekorzystnej sytuacji informacyjnej. Privacy Possum eliminuje powszechne komercyjne metody śledzenia poprzez redukcję i fałszowanie danych zebranych przez firmy śledzące. https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/
+
+Pamiętaj by nie duplikować z innymi rozszerzeniami, takimi jak: Ghostery, Disconnect i Privacy Badger
 
 ### Polska Ciasteczkowa Zgoda
 
