@@ -37,6 +37,7 @@ lub zafundować mi kawę
   - [KeePassXC](#keepassxc)
   - [Violentmonkey](#violentmonkey)
   - [Stylus](#stylus)
+  - [User Agent Switcher](#user-agent-switcher-and-manager)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
 ## Kilka zasad bezpieczeństwa
