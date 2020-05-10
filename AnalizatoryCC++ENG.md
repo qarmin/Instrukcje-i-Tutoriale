@@ -6,7 +6,7 @@ The solution to these problems in many cases are static and dynamic code analyze
 
 All tools I'm going to present are free for open-source projects (with a small exception of PVS-Studio, but about that later), many of which can be easily integrated with CI (in my case Gitlab CI) for autimatical code and regression checking.
 
-I have integrated many projects with Sonarcloud, Cppcheck and Coverity Scan, whose codes and implementation details can be found here - https://gitlab.com/dashboard/projects.
+I have integrated many projects with Sonarcloud, Cppcheck and Coverity Scan, whose code and implementation details can be found here - https://gitlab.com/dashboard/projects.
 
 The results of Sonarcloud scans can be found here - https://sonarcloud.io/organizations/qarmin-1/projects and Cppcheck in pipelins in a given project on Gitlab e.g. https://qarmin.gitlab.io/-/godot/-/jobs/526221853/artifacts/report/index.html
 
