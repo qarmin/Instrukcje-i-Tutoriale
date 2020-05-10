@@ -23,22 +23,34 @@ lub zafundować mi kawę
 - [Wbudowana ochrona przed śledzeniem](#wbudowana-ochrona-przed-śledzeniem)
 - [Uprawnienia stron internetowych](#uprawnienia-stron-internetowych)
 - [Wtyczki](#wtyczki)
- - [Ublock Origin](#ublock-origin---blokowanie-reklam)
- - [HTTPS Everywhere](#https-everywhere---szyfrowana-sieć)
- - [AdNauseum](#adnauseum---dezorientowanie-reklamodawców)
- - [Decentraleyes](#decentraleyes)
- - [Containers](#containers---zamykanie-stron-w-kontenery)
+  - [uBlock Origin](#ublock-origin---blokowanie-reklam)
+  - [HTTPS Everywhere](#https-everywhere---szyfrowana-sieć)
+  - [Decentraleyes](#decentraleyes---blokowanie-śledzenia-przez-cdn)
+  - [Containers](#containers---zamykanie-stron-w-kontenery)
+  - [Canvas Blocker](#canvas-blocker-fingerprint-protect---zmiana-odcisku-palca)
+  - [Privacy Possum](#privacy-possum---utrudnia-śledzenie)
+  - [Polska Ciasteczkowa Zgoda](#polska-ciasteczkowa-zgoda)
+  - [Nano Defender](#nano-defender)
+  - [Tab Stash](#tab-stash)
+  - [Simple Translate](#simple-translate)
+  - [Search by Image](#search-by-image)
+  - [KeePassXC](#keepassxc)
+  - [Violentmonkey](#violentmonkey)
+  - [Stylus](#stylus)
+  - [User Agent Switcher](#user-agent-switcher-and-manager)
+  - [CSS Exfil Protection](#css-exfil-protection)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
 ## Kilka zasad bezpieczeństwa
-- Instaluj oprogramowanie otwartoźródłowe zamiast własnościowego gdy tylko masz taką możliwość.
-- Nie otwieraj plików z nieznanych źródeł, a jeśli musisz to przeskanuj je w serwisie https://www.virustotal.com.
-- Nie udostępniaj nikomu swoich danych osobowych takich jak nazwisko czy miejsce zamieszkania.
-- Nie loguj się na swoje konta, na urządzeniach co do których nie masz pewności, że nie są zarażone wirusem.
+- Instaluj oprogramowanie [otwartoźródłowe](https://github.com/qarmin/Rewelacyjne-OpenSource#readme) zamiast własnościowego gdy tylko masz taką możliwość
+- Nie otwieraj plików z nieznanych źródeł, a jeśli musisz to przeskanuj je w serwisie https://www.virustotal.com
+- Nie udostępniaj nikomu swoich danych osobowych takich jak nazwisko czy miejsce zamieszkania
+- Nie loguj się na swoje konta, na urządzeniach co do których nie masz pewności, że nie są zarażone wirusem
 - Staraj się instalować programy ze stron domowej ich producenta lub ze sklepów z oprogramowaniem
-- Korzystaj z oprogramowania antywirusowego
-- Nie wpisuj swoich danych logowania na stronach nieobsługujących szyfrowania.
-- Stosuj unikalne hasła dla każdego serwisu, najlepiej korzystając z menedżera haseł.
+- Na Windowsie korzystaj z oprogramowania antywirusowego i [zapory](https://github.com/henrypp/simplewall/releases)
+- Na [Linuxie](https://github.com/qarmin/GNU-Linux-Podstawy#readme) korzystaj z [sandboxa](https://github.com/netblue30/firejail#readme) i ufw
+- Nie wpisuj swoich danych logowania na stronach nieobsługujących szyfrowania
+- Stosuj unikalne hasła dla każdego serwisu, najlepiej korzystając z [menedżera haseł](#keepassxc)
 - Nie wpinaj do swojego komputera pendrivów i dysków nieznanego pochodzenia
 
 ## DoH - szyfrowane DNS
@@ -51,7 +63,7 @@ https://www.privacytools.io/providers/dns/#dns https://gist.github.com/ookangzhe
 
 ![S](https://user-images.githubusercontent.com/41945903/68145118-5a02e700-ff35-11e9-8f3b-5a494cfa15e9.png)
 
-Jeśli jednak możesz w **about:config**, wpisz **network.trr.mode** i ustaw na **2**
+Aby zwiększyć skuteczność szyfrowania - w **about:config**, wpisz **network.trr.mode** i ustaw na **2**
 
 ![s](https://www.ghacks.net/wp-content/uploads/2018/04/firefox-network-trr-dns-over-https.png)
 
@@ -75,20 +87,16 @@ Aby ją ustawić jako domyślną wyszukiwarkę należy przejść do ustawień i 
 
 ![S](https://user-images.githubusercontent.com/41945903/68150615-650f4480-ff40-11e9-84c2-2c15610ad419.png)
 
-Alternatywnie, możesz ustawić inną prywatną wyszukiwarkę
-https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/
+Alternatywnie, możesz ustawić inną prywatną wyszukiwarkę <br/>
+https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/ <br/>
+
+więcej instancji searx `https://searx.space/`
 
 ```
-https://searx.site/?q=%s&categories=general&language=pl-PL
-```
-```
-https://www.mojeek.com/search?q=%s
+https://search.privacytools.io/?q=%s&categories=general&language=pl-PL
 ```
 ```
 https://www.qwant.com/?q=%s
-```
-```
-https://yandex.pl/search/?text=%s
 ```
 
 ## Wbudowana ochrona przed śledzeniem
@@ -118,30 +126,29 @@ Domyślnie Firefox blokuje autoodtwarzanie dźwięku na stronach, lecz w ustawie
 ![S](https://user-images.githubusercontent.com/41945903/68152232-8de50900-ff43-11e9-9f98-3011b3a87f70.png)
 
 ## Wtyczki
-### Ublock Origin - Blokowanie Reklam
-Zapewne wiele osób kojarzy Ublock Origin tylko jako narzędzie do blokowania reklam.  
-Ublock Origin ma jednak o wiele więcej możliwości a mianowicie blokowanie skryptów JavaScript, czcionek sieciowych, ramek z informacjami o ciasteczkach i RODO, stron z wirusami i malware lub wykorzystywanych do oszukiwania ludzi.  
-Czas ładowania niektórych stron, dzięki użyciu Ublock Origin, może przyspieszyć ładowanie stron nawet kilkukrotnie(najlepszym przykładem jest serwis wykop.pl - http://www.wykop.pl/artykul/5173213/test-ublock-origin-na-stronach-internetowych-zuzycie-ram-i-czas-ladowania/)
+### uBlock Origin - Blokowanie Reklam
+Zapewne wiele osób kojarzy uBlock Origin tylko jako narzędzie do blokowania reklam. uBlock Origin ma jednak o wiele więcej możliwości a mianowicie blokowanie skryptów JavaScript, czcionek sieciowych, ramek z informacjami o ciasteczkach i RODO, stron z wirusami i malware lub wykorzystywanych do oszukiwania ludzi. Czas ładowania niektórych stron, dzięki użyciu Ublock Origin, może przyspieszyć ładowanie stron nawet kilkukrotnie `(najlepszym przykładem jest serwis wykop.pl - http://www.wykop.pl/artykul/5173213/test-ublock-origin-na-stronach-internetowych-zuzycie-ram-i-czas-ladowania/)`
 
 #### Dla początkujących
-Na początek należy zainstalować Ublock Origin z oficjalnej strony z dodatkami Mozilli - https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
+Na początek należy zainstalować uBlock Origin z oficjalnej strony z dodatkami Mozilli - https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
 
 Następnie umożliwiamy działanie dodatku w oknach prywatnych.
 
 ![S](https://user-images.githubusercontent.com/41945903/68144976-0a242000-ff35-11e9-899c-0e575b3e20f3.png)
 
-Na sam początek pobierzemy oficjalne polskie filtry do Ublocka ze strony - https://majkiit.github.io/polish-ads-filter/, klikając przy każdym filtrze przycisk **Subskrybuj**(niektóre się dublują, więc warto przeczytać adnotacje na dole strony).
+Na sam początek pobierz oficjalne polskie filtry do uBlocka Origin ze strony - https://majkiit.github.io/polish-ads-filter/ lub https://polishannoyancefilters.netlify.app/otherfiltersforadblockers/, klikając przy każdym filtrze przycisk **Subskrybuj** `(niektóre się dublują, więc warto przeczytać adnotacje na dole strony)`
 
-Następnie przechodzimy do ustawień dodatku do zakładki **Listy Filtrów**, gdzie znajdują się wszystkie dostępne filtry na tę chwilę.
+Następnie przechodzimy w ustawieniach rozszerzenia uBlock Origin do zakładki **Listy Filtrów**, gdzie znajdują się wszystkie dostępne filtry na tę chwilę. `(niektóre sekcje mogą być ukryte, ale wystarczy kliknąć + aby rozwinąć)`
 
-Zalecam, dla skutecznej ochrony, włączyć wszystkie filtry takie jakie występują na obrazku.  
-Należy jednak pamiętać, że im więcej filtrów, tym większe wykorzystanie procesora, dlatego należy zachować ich ilości.
+Dla skutecznej ochrony, włącz wszystkie filtry takie jak występują na obrazku.
 
-![S](https://user-images.githubusercontent.com/41945903/68148430-46a74a00-ff3c-11e9-97b1-ad4e71437edb.png)
+![S](https://user-images.githubusercontent.com/5884000/81131945-238e3f00-8f4d-11ea-9720-3f81a917333e.png)
 
-W przypadku gdy dana strona nie będzie działała możemy wyłączyć na niej Ublock Origin, za pomocą tego niebieskiego przycisku, którym to możemy również ponownie włączyć ochronę przed reklamami.
+Nie jest jednak zalecane dla początkujących użytkowników włączanie wszystkich list filtrów. Może to powodować problemy z działaniem stron, które trzeba będzie zgłosić opiekunom list filtrów. Można też wyłączyć uBlock Origin na stronie powodującej awarie, za pomocą tego niebieskiego przycisku pod ikoną rozszerzenia - którym to możemy również ponownie włączyć ochronę przed reklamami.
 
 ![S](https://user-images.githubusercontent.com/41945903/68148620-a7368700-ff3c-11e9-9934-d52fabf0b16b.png)
+
+Jak zrobić kopie zapasową ustawionych filtrów https://majkiit.github.io/polish-ads-filter/docs/basic/ubo-backup/
 
 #### Dla zaawansowanych
 Na początek musimy odblokować ustawienia zaawansowane w Ublocku, które umożliwią dostosowanie blokowania poszczególnych elementów na stronach.  
@@ -153,25 +160,24 @@ W przypadku korzystania ze słabszego komputera polecam w tym miejscu włączeni
 
 ![S](https://user-images.githubusercontent.com/41945903/68149342-0d6fd980-ff3e-11e9-8d2a-a892a6e73fc1.png)
 
-Po naciśnięciu na czerwoną tarczę dodatku, powinien nam się ukazać dużo bardziej zaawansowany panel w którym to dodano możliwość ustawiania globalnych filtrów(po lewej stronie) stosowanych dla wszystkich witryn oraz lokalnych używanych jedynie na tej konkretnej stronie.
+Po naciśnięciu na czerwoną tarczę dodatku, powinien nam się ukazać dużo bardziej zaawansowany panel w którym to dodano kolumny ustawień. Lewa to globalna `(wszystkie strony)`, prawa to lokalna `(tylko aktualna strona)`
 
 Każdym zasobom z danej strony możemy przyporządkować stany oznaczone trzema kolorami:
 - **czerwony** - oznacza  blokadę określonego elementu/zasobu z danej strony np. ustawienie czerwonej blokady na właściwości **domeny zewnętrzne** - spowoduje, że na danej stronie będą blokowane wszelkie zasoby pochodzące z zewnętrznych witryn
 - **szary** - stosowany jest do neutralizacji stanu wyższego poziomu np. gdy globalnie(po lewej stronie) zablokujemy obrazki na wszystkich stronach(kolor czerwony), to możemy stworzyć wyjątek dla tej konkretnej strony oznaczając tą samą właściwość, lecz tym razem po prawej stronie.
-- **zielony** - oznacza, że zasoby pochodzące z danego źródła/strony nie zostaną zablokowane ani przefiltrowane przez Ublocka. Używane są często, gdy ustawiliśmy bardzo agresywne filtry Ublocka blokujące elementy potrzebne do działania danej strony.
+- **zielony** - oznacza, że zasoby pochodzące z danego źródła/strony nie zostaną zablokowane ani przefiltrowane przez Ublocka. Używane są często, gdy ustawiliśmy bardzo agresywne filtry Ublocka blokujące elementy potrzebne do działania danej strony. Ale nie powinny, bo to całkowicie odblokowuje połączenia do domeny. Zielony powinien być używany do testów lub do naprawiania błędów w filtrach, które to powinny być raczej zgłaszane [autorom filtrów](https://majkiit.github.io/polish-ads-filter/) do poprawki.
 
 ![S](https://user-images.githubusercontent.com/41945903/68149440-32fce300-ff3e-11e9-94e2-5af2548d3528.png)
 
-Ublock Origin w swojej instukcji wskazuje, że można wyłączyć skrypty i ramki z zewnętrznych witryn co powinno zwiększyć bezpieczeństwo użytkownika i nie powinno zbytnio zepsuć stron, lecz w razie konieczności można dla konkretnej strony wyłączyć to ustawienie.
-
+uBlock Origin w swojej instukcji wskazuje, że można wyłączyć skrypty i ramki z zewnętrznych witryn co powinno zwiększyć bezpieczeństwo użytkownika i nie powinno zbytnio zepsuć stron, lecz w razie konieczności można dla konkretnej strony wyłączyć to ustawienie.
 
 Ustawienia o wyłączonych stronach są przechowywane do czasu ponownego uruchomienia przeglądarki, więc aby zapisać zmiany należy nacisnąć po lewej stronie na górze panlelu na kłódkę, a aby przywrócić je do wcześniej zapisanego stanu na gumkę.
 
 ##### Filtry kosmetyczne
 
-Bardzo przydatną Ublocka, jest możliwość usunięcia ze strony poszczególnych elementów zwanych **elementami kosmetycznymi**. Możemy zablokować dowolny taki element bazując na jego nazwie, identyfikatorze, umiejscowieniu czy wielu innych atrybutach.
+Bardzo przydatną uBlocka, jest możliwość usunięcia ze strony poszczególnych elementów zwanych **elementami kosmetycznymi**. Możemy zablokować dowolny taki element bazując na jego nazwie, identyfikatorze, umiejscowieniu czy wielu innych atrybutach.
 
-Aktywować tę funkcję możemy poprzez naciśnięcie prawym przyciskiem myszy na ekran i wybranie opcji **Zablokuj element** lub w głównym panelu klikając na przycisk pod wyłączaniem Ublocka, podobny do strzykawki(niestety nie wiem jak to się fachowo nazywa)
+Aktywować tę funkcję możemy poprzez naciśnięcie prawym przyciskiem myszy na ekran i wybranie opcji **Zablokuj element** lub w głównym panelu pod ikoną rozszerzenia, klikając na przycisk podobny do próbnika.
 
 ![S](https://user-images.githubusercontent.com/41945903/68161262-c988ce80-ff55-11e9-828d-683a55e320a6.png)
 
@@ -180,7 +186,7 @@ Zarówno stopka jak i informacje o autorze nie są mi wcale potrzebne, więc je 
 
 ![S](https://user-images.githubusercontent.com/41945903/68183488-e4cafc80-ff9c-11e9-8ab2-ebc28d765755.png)
 
-W razie potrzeby można zablokować/odblokować wyświetlanie elementów kosmetycznych, klikając na przekreślone oko w głównym panelu Ublocka.   
+W razie potrzeby można zablokować/odblokować wyświetlanie elementów kosmetycznych, klikając na przekreślone oko w głównym panelu uBlocka Origin. `(czasami pomaga też na "lekkie" anty-adbloki)`
 Listę własnych filtrów można przeglądać i modyfikować na stronie ustawień Ublocka w zakładce **Moje filtry** oraz **Moje reguły**
 
 
@@ -198,12 +204,6 @@ W przypadku gdy chcemy zwiększyć własne bezpieczeństwo i uniemożliwić pods
 W przypadku gdy akurat strona na którą musimy wejść przesyłana jest bez szyfrowania i blokowana przez dodatek, możemy zrobić dla niej wyjątek poprzez naciśnięcie na przycisk **Wyłącz HTTPS Everywhere na tej stronie**
 
 ![S](https://user-images.githubusercontent.com/41945903/68146009-55d7c900-ff37-11e9-9696-44995ee0d79e.png)
-
-### AdNauseum - Dezorientowanie reklamodawców
-Jeśli tak bardzo was denerwuje to, że strony zbierają o was wszelkie dostępne informacje, możecie namieszać nieco w ich danych używając dodatku AdNauserum, instalując go ze strony https://addons.mozilla.org/en-US/firefox/addon/adnauseam/.  
-Dodatek ten bazuje na Ublock Origin dzięki czemu umożliwia blokowanie i ukrywanie reklam oraz dodatkowo symuluje kliknięcia w nie, dzięki czemu skutecznie dezorientuje szpiegów.
-
-![S](https://user-images.githubusercontent.com/41945903/68145927-2c1ea200-ff37-11e9-8def-5638190000a9.png)
 
 ### Decentraleyes - Blokowanie śledzenia przez CDN
 Decentraleyes jest dodatkiem umożliwiającym blokowanie śledzenia przez CDN(Content Networks Delivery).  
@@ -238,9 +238,11 @@ aby przetestować, wejdź na https://browserleaks.com/canvas
 Usuwanie elementów śledzących, z linków przekierowywujących pomiędzy odwiedzanymi domenami
 https://addons.mozilla.org/en-US/firefox/addon/clearurls/
 
-### Privacy Possum - Utrudnia śledzenie [*](https://github.com/ghacksuserjs/ghacks-user.js/wiki/4.1-Extensions#small_orange_diamond-dont-bother)
+### Privacy Possum - Utrudnia śledzenie
 
-Prywatność Possum sprawia, że śledzenie Ciebie jest mniej opłacalne. Firmy zbierają dane o Tobie, aby stworzyć asymetrię informacji, które wykorzystują do osiągania zysków w coraz bardziej ekspansywny sposób. Ich zysk pochodzi z Twojej niekorzystnej sytuacji informacyjnej. Prywatność Possum eliminuje powszechne komercyjne metody śledzenia poprzez redukcję i fałszowanie danych zebranych przez firmy śledzące. https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/
+Prywatność Possum sprawia, że śledzenie Ciebie jest mniej opłacalne. Firmy zbierają dane o Tobie, aby stworzyć asymetryczną informacje, które wykorzystują do osiągania zysków w coraz bardziej ekspansywny sposób. Ich zysk pochodzi z Twojej niekorzystnej sytuacji informacyjnej. Privacy Possum eliminuje powszechne komercyjne metody śledzenia poprzez redukcję i fałszowanie danych zebranych przez firmy śledzące. https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/
+
+Pamiętaj by nie duplikować z innymi rozszerzeniami, takimi jak: Ghostery, Disconnect i Privacy Badger
 
 ### Polska Ciasteczkowa Zgoda
 
@@ -262,6 +264,39 @@ Bezproblemowy sposób na zapisywanie i przywracanie partii zakładek jako zakła
 
 Szybkie tłumaczenie wybranego tekstu na stronie internetowej. W wyskakującym okienku na pasku narzędzi możesz przetłumaczyć wprowadzony tekst. https://addons.mozilla.org/pl/firefox/addon/simple-translate/
 
+### Search by Image
+Search by Image jest rozszerzeniem do przeglądarki, które umożliwia inicjowanie wyszukiwania zwrotnego obrazu z menu kontekstowego po kliknięciu prawym przyciskiem myszy lub w pasku narzędzi przeglądarki i jest obsługiwane przez ponad 30 wyszukiwarek. https://addons.mozilla.org/en-US/firefox/addon/search_by_image/
+
+### KeePassXC
+Oficjalna wtyczka do przeglądarki dla menedżera haseł KeePassXC 
+https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/
+
+Sprawdź czy twoje dane są bezpieczne https://haveibeenpwned.com/
+
+### Violentmonkey
+Violentmonkey zapewnia obsługę skryptów użytkownika dla przeglądarek. Działa na przeglądarkach z obsługą WebExtensions. Obsługuje większość skryptów dla Greasemonkey i Tampermonkey. https://addons.mozilla.org/pl/firefox/addon/violentmonkey/
+
+### Stylus
+Zmień swoją ulubioną witrynę internetową za pomocą Stylusa, aktywnie rozwijanego i zarządzanego przez społeczność menedżera stylów użytkownika. Łatwo instaluj niestandardowe motywy z popularnych repozytoriów online lub twórz, edytuj i zarządzaj własnymi spersonalizowanymi arkuszami stylów CSS. https://addons.mozilla.org/pl/firefox/addon/styl-us/
+
+### User Agent Switcher and Manager
+Możesz zmienić ciąg znaków user-agenta, aby wskazać, że jesteś na urządzeniu mobilnym, jeśli chcesz oglądać mobilne wersje stron, aby ładowały się szybciej. https://addons.mozilla.org/pl/firefox/addon/user-agent-string-switcher/
+
+Więcej ciekawych user-agentów https://www.whatismybrowser.com/guides/the-latest-user-agent/
+https://www.whatismybrowser.com/detect/what-is-my-user-agent
+
+### CSS Exfil Protection
+CSS Exfil jest metodą, którą atakujący mogą wykorzystać do kradzieży danych ze stron internetowych za pomocą kaskadowych arkuszy stylów (CSS). Ten plugin odkaża i blokuje wszelkie reguły CSS, które mogą być przeznaczone do kradzieży danych. https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/
+
+Sprawdź podatność https://www.mike-gualtieri.com/css-exfil-vulnerability-tester
+
+### Rozszerzenia specyficzne dla YouTube
+https://github.com/pietervanheijningen/clickbait-remover-for-youtube<br/>
+https://github.com/lawfx/YoutubeNonStop#readme<br/>
+https://github.com/erkserkserks/h264ify#readme<br/>
+https://github.com/ajayyy/SponsorBlock#readme
+
+
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
 Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:config` wraz z zalecanymi wartościami:
@@ -279,7 +314,7 @@ Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:conf
 - `network.security.esni.enabled = true` - Wsparcie szyfrowania dla SNI, które blokujące możliwość poznania stron które odwiedzamy.
 - `dom.battery.enabled = false` - Blokuje możliwość odczytu informacji o baterii
 - `plugins.enumerable_names = "puste pole"` - Zapobiega odczytywaniu listy dostępnych wtyczek
-- `security.tls.version.min = 2` - Skuteczniejsze szyfrowanie TLS 1.2
+- `security.tls.version.min = 2` - Skuteczniejsze szyfrowanie TLS 1.2 (może powodować problemy ze stronami które nie wspierają silnego szyfrowania tls 1.2)
 
 Szablony user.js dla Firefox
 - ang [ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) - Trwający obszerny szablon user.js służący do konfigurowania i utwardzania prywatności, bezpieczeństwa i ochrony przed pobieraniem odcisków palców Firefoksa.
