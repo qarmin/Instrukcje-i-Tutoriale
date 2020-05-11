@@ -1,6 +1,6 @@
 # Jak pomóc przy rozwoju otwartego oprogramowania?
 
-Zapewne prawie każdy miał styczność z otwartoźródłowym oprogramowaniem i wiele osób używa na codzień programów typu Gimp, Krita, Firefox, Blender czy nawet systemu Linux.
+Zapewne prawie każdy miał styczność z otwartoźródłowym oprogramowaniem i wiele osób używa na co dzień programów typu Gimp, Krita, Firefox, Blender czy nawet systemu Linux.
 
 Z racji dostępności kodu źródłowego i możliwości jego modyfikowania oraz używania za darmo nawet w celach komercyjnych, wokół otwartoźródłowego oprogramowania wykształciła się społeczność, która pomaga tłumaczyć teksty czy naprawiać i tworzyć nowy kod.
 
@@ -191,6 +191,36 @@ Zazwyczaj informacja o możliwych formach wsparcia znajduje się na stronie gł�
 
 Wymagania:
 - Trzeba mieć wolne środki na koncie ¯\\_(ツ)\_/¯
+
+## Zarządzanie projektem
+Z chwilą gdy tworzymy swoje własne repozytorium stajemy się wtedy automatycznie osobami nim zarządzającymi.
+
+Od naszych decyzji zależy w jakim kierunku poprowadzimy jego rozwój, jakie ustalimy cele i zasady w nim panujące czy w końcu jakie poprawki włączymy do projektu a jakie odrzucimy.
+
+Podczas gdy stworzenie projektu w którym będzie się zarządzało jest dość proste to, zostanie osobą decyzyjną w innym projekcie wymaga zazwyczaj zaangażowania w procesie tworzenia i weryfikacji poprawek czy dyskutowaniem nt. przyszłych zmian w zasadach lub o nowych funkcjach.
+
+Należy również umieć powiedzieć NIE pomysłom i zmianom, które nie podążają z założeniami projektu.
+
+Trzeba jednak zrobić to w uprzejmy sposób popierając to silną argumentacją, ponieważ w przeciwnym przypadku można zrazić swoim niemiłym zachowaniem osoby które chciałyby pomóc w rozwoju projektu.
+
+Wymagania:
+- Bardzo dobra znajomość kodu projektu
+- Doświadczenie przy zarządzaniu innymi projektami(wymagane głównie przy większych projektach)
+- Opanowanie i życzliwość - Nie ma chyba nic gorszego jak nieuprzejma osoba odrzucająca twój PR w który włożyłeś sporo pracy
+
+## Projektowanie/Tworzenie elementów graficznych
+Mimo, że ogromna ilość oprogramowania open source to wersje konsolowe(CLI), które świetnie się sprawdza w automatyzacji wielu czynności, to również bardzo często jest tworzony interfejs graficzny(GUI), gdyż wiele codziennych czynności jest jego pomocą łatwiej wykonać i jest dużo bardziej przyjazny dla zwykłych użytkowników.
+
+W takich aplikacjach kluczowy jest wygląd oraz czytelność i intuicyjność interfejsu.
+
+Osoby z umiejętnością planowania przestrzennego, mogą się odnaleźć w planowaniu gdzie i jakie elementy mają się znaleźć tak aby użytkownik nie miał problemów w znalezieniu i użyciu danej rzeczy.
+
+Ważne jest również aby ikony w projekcie w sposób jasny i czytelny oznaczały do czego służą.
+
+![Ikony](https://user-images.githubusercontent.com/41945903/81536917-a4de3b00-936c-11ea-8378-c0946f00c8a0.png)
+
+Wymagania:
+- Dusza artysty
 
 ## Podsumowanie
 Oprogramowanie Open Source jest dobrem wspólnym używanym przez rzesze ludzi na całym świecie, które zapewnia nam wolność jaką nosi za sobą możliwość przeglądania, używania i modyfikacji kodu źródłowego aplikacji.

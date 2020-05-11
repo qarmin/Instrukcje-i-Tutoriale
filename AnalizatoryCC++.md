@@ -172,7 +172,7 @@ sudo apt install valgrind
 ### Sposób użycia 
 ```
 g++ rr.cpp -o rr.out
-valgrind --leak-check=full ./rr.out
+valgrind --leak-check=full --track-origins ./rr.out
 ```
 ## 7. Heaptrack 
 Wyświetla w formie graficznej liczbę alokacji, wycieki pamięci, zużycie pamięci w poszczególnej jednostce czasu.  
@@ -181,7 +181,7 @@ Jest dużo szybszy od Valgrinda w wykrywaniu wycieków pamięci, lecz chyba nie 
 ### Przykładowy Raport
 ![Heaptrack](https://user-images.githubusercontent.com/41945903/80742545-d4df4000-8b1b-11ea-82ca-ffc22b94ca2c.png)
 
-### Instalacja na Ubuntu(chyba >19.10)
+### Instalacja na Ubuntu(chyba > 19.10)
 ```
 sudo apt install heaptrack heaptrack-gui
 ```
@@ -202,7 +202,7 @@ Program skompilowany z ich pomocą działa nawet kilkakrotnie wolniej oraz zajmu
 Na tę chwilę dostępne są poniższe analizatory:
 - Leak Sanitizer - odpowiedzialny za wykrywanie wycieków pamięci.  
 Pokazuje ile i w jakim miejscu została pamięć zaalokowana.   
-To narzędzie ma minimalny narzut.
+To narzędzie ma minimalny narzut.  
 ```
 Direct leak of 3672 byte(s) in 51 object(s) allocated from:
     #0 0x7fe4aeb98ae8 in malloc (/lib/x86_64-linux-gnu/libasan.so.5+0x10dae8)
@@ -323,4 +323,117 @@ sudo apt install gcc g++ clang clang-tools
 ```
 scan-build clang++ rr.cpp -o rr.out #LLVM
 gcc rr.cpp -o rr.out -fanalyzer #GCC
+```
+## 10. Dodatkowe flagi kompilacji
+Oprócz statycznych i dynamicznych analizatorów, kompilatory GCC i Clang posiadają szereg flag za których pomocą możemy kontrolować jakie ostrzeżenia będziemy dostawać podczas kompilacji.
+
+Podstawowymi flagami są:
+- `-Wall` - włącza dużą ilość podstawowych flag takich jak `-Waddress`, `-Wcomment`, `-Wformat` czy `-Wuninitialized`
+- `-Wextra` - dodaje kilka flag tj. `-Wsign-compare` czy `-Wtype-limits` nieobecnych w `-Wall`
+- `-Wpendantic` - raportuje wszystko związane z naruszeniem standardu ISO C/C++
+- `-Werror` - traktuje wszystkie ostrzeżenia jako błędy i po wykryciu jakiegokolwiek kończy proces kompilacji z błędem
+
+### Przykładowy Raport
+```
+qq.cpp: In function ‘int main()’:
+qq.cpp:7:5: warning: unused variable ‘rr’ [-Wunused-variable]
+    7 | int rr;
+      |     ^~
+      
+qq.cpp:9:5: warning: unused variable 'ww' [-Wunused-variable]
+int ww;
+    ^
+```
+### Instalacja na Ubuntu
+Z racji, że są wbudowane w kompilator, to wystarczy tylko zainstalować używany gcc lub clang
+```
+sudo apt install gcc g++ clang
+```
+
+### Sposób użycia 
+```
+clang++ -Wall -Wextra qq.cpp -o qq.out #LLVM
+g++ -Wall -Wextra qq.cpp -o qq.out #GCC
+```
+## 11. GDB - GNU Project Debugger oraz LLDB
+GDB oraz LLDB to dwa debuggery, które pozwalają nam na sprawdzanie co i jak nasz program wykonuje instrukcja po instrukcji.
+
+Stosowanie debuggerów w konsoli często bywa męczące i trudne, dlatego można korzystać z IDE tj. QT Creator by wygodnie graficznie sprawdzać kod.
+
+### Przykładowy Raport
+```
+Reading symbols from qq.out...
+(gdb) run
+Starting program: /home/rafal/TempProjekty/qq/qq.out 
+[Inferior 1 (process 72931) exited normally]
+(gdb) break qq.cpp:5
+Breakpoint 1 at 0x555555555169: file qq.cpp, line 6.
+(gdb) run
+Starting program: /home/rafal/TempProjekty/qq/qq.out 
+
+Breakpoint 1, main () at qq.cpp:6
+6	{
+(gdb) 
+
+
+
+(lldb) breakpoint set -f qq.cpp -l 5
+Breakpoint 1: where = qq.out`main + 8 at qq.cpp:14:8, address = 0x0000000000001171
+(lldb) run
+Process 73909 launched: '/home/rafal/TempProjekty/qq/qq.out' (x86_64)
+Process 73909 stopped
+* thread #1, name = 'qq.out', stop reason = breakpoint 1.1
+    frame #0: 0x0000555555555171 qq.out`main at qq.cpp:14:8
+   11  	
+   12  	
+   13  	
+-> 14  	return 0;
+   15  	}
+(lldb) 
+```
+### Instalacja na Ubuntu
+```
+sudo apt install gdb
+```
+
+### Sposób użycia 
+Należy skompilować program z parametrem `-g` aby zapewnić debuggerom dostęp do poprawnych symboli debugowania
+```
+clang++ qq.cpp -o -g qq.out #LLVM
+g++ qq.cpp -o qq.out #GCC
+
+gdb qq.out
+break:qq.cpp:5
+run
+
+lldb
+breakpoint set -f qq.cpp -l 5
+run
+```
+## 12. Clang Tidy
+Clang Tidy jest programem z rodziny Clang/LLVM, który umożliwia automatyczne poprawianie kodu C++ tak aby możliwe było uzyskanie jak największej zgodności ze standardami C++11/14/17.
+
+Dodanie parametru `--fix`, spowoduje automatyczne dodanie sugerowanych poprawek do projektu.
+
+### Przykładowy Raport
+```
+/home/rafal/TempProjekty/qq/qq.cpp:3:1: warning: do not use namespace using-directives; use using-declarations instead [google-build-using-namespace]
+using namespace std;
+^
+/home/rafal/TempProjekty/qq/qq.cpp:5:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+int main()
+~~~ ^
+auto       -> int
+```
+### Instalacja na Ubuntu
+Z racji, że są wbudowane w kompilator, to wystarczy tylko zainstalować używany gcc lub clang
+```
+sudo apt install clang-tidy
+```
+
+### Sposób użycia 
+```
+clang-tidy qq.cpp --checks="*"
+clang-tidy qq.cpp -fix --checks="modernize-use-nullptr"
+
 ```
