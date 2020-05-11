@@ -66,7 +66,7 @@ Fixing bugs very often requires a big knowledge and understanding of the code in
 However, sometimes a fast analysis of the code is enough.
 
 Many errors are caused by common typos or incorrect use of tools/operators of a given language.
-This kind of errors can be quite easily found with tools like Cppcheck, Address and Leak Sanitizer or Sonarcloud, which automatically scan the project for the incorrect code and display a list of errors in their opinion, which must be reviewed to see if they are wrong.
+These kind of errors can be quite easily found with tools like Cppcheck, Address and Leak Sanitizer or Sonarcloud, which automatically scan the project for the incorrect code and display a list of errors in their opinion, which must be reviewed to see if they are wrong.
 
 ![Gimp](https://user-images.githubusercontent.com/41945903/81387115-7404c880-9116-11ea-9bf4-13ebcce2aae0.png)
 
