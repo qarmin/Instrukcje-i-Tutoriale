@@ -48,7 +48,7 @@ Sample template from the Godot Engine:
 **Minimal reproduction project.
 ```
 Example of a very good bug report  
-[Useful](https://user-images.githubusercontent.com/41945903/81387004-428bfd00-9116-11ea-9a13-8b0014877307.png)
+![Useful](https://user-images.githubusercontent.com/41945903/81387004-428bfd00-9116-11ea-9a13-8b0014877307.png)
 
 Requirements:
 - Ability to describe the problem in a concise and in point
