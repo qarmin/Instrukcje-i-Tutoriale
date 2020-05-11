@@ -39,7 +39,7 @@ Sample template from the Godot Engine:
 ```
 **Godot version.
 
-**Oh, yes, yes, yes, yes, yes, yes, yes, yes.
+**OS/device including version:**
 
 **Issue description:**
 
