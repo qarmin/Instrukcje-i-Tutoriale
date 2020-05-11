@@ -221,6 +221,7 @@ Ważne jest również aby ikony w projekcie w sposób jasny i czytelny oznaczał
 
 Wymagania:
 - Dusza artysty
+- Umiejętność ukazywania informacji poprzez graficzny minimalizm
 
 ## Podsumowanie
 Oprogramowanie Open Source jest dobrem wspólnym używanym przez rzesze ludzi na całym świecie, które zapewnia nam wolność jaką nosi za sobą możliwość przeglądania, używania i modyfikacji kodu źródłowego aplikacji.
