@@ -54,6 +54,7 @@ services:
       - deemix-config-data:/config
 
 
+volumes:
   deemix-data:
     name: deemix-data
   deemix-config-data:
