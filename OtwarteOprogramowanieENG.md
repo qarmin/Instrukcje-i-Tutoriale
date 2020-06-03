@@ -111,7 +111,6 @@ If there are any problems, we have to fix our code and try again.
 - Adding files to the queue  
 You should check which files have been changed and add the ones you want to include in our patch.
 ```
-awesome
 git add file1 folder2
 ```
 
