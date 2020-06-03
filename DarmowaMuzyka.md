@@ -4,7 +4,7 @@ Zapewne wielu z was jest zdenerwowana na Spotify z powodu dodawania niechcianych
 
 Rozwiązaniem tych problemów może być dla wielu skorzystanie z usługi `deezer`, przy pomocy której będziemy mieli możliwość pobrania plików muzycznych w formacie MP3 oraz FLAC i korzystania z nich tam gdzie do tej pory nie mogliśmy korzystać ze Spotify - radia samochodowe itp.
 
-1. Zainstaluj Dockera - umożliwi to proste uruchomienie serwera bez konieczności zmiany konfiguracji komputera(dostępny jest również wykły skrypt)
+1. Zainstaluj Dockera - umożliwi to proste uruchomienie serwera bez konieczności zmiany konfiguracji komputera(dostępny jest również zwykły skrypt)
 
 W Ubuntu 20.04 wystarczy uruchomić komendę `apt install -y docker-compose docker.io`
 
