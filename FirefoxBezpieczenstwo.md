@@ -228,7 +228,7 @@ Oprócz oczywistego zysku dla prywatności, umożliwia użytkownikom łatwe orga
 
 ### Canvas Blocker (Fingerprint Protect) - Zmiana odcisku palca
 
-Skuteczne narzędzie, pozwalające zmienić odcisk palca przy każdym odświeżeniu odwiedzanej strony
+Skuteczne narzędzie[*](https://github.com/ghacksuserjs/ghacks-user.js/wiki/4.1-Extensions#small_orange_diamond-%EF%B8%8F-anti-fingerprinting-extensions-fk-no), pozwalające zmienić odcisk palca przy każdym odświeżeniu odwiedzanej strony
 https://addons.mozilla.org/pl/firefox/addon/canvas-blocker-no-fingerprint/
 
 aby przetestować, wejdź na https://browserleaks.com/canvas
