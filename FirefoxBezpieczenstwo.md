@@ -294,7 +294,7 @@ Sprawdź podatność https://www.mike-gualtieri.com/css-exfil-vulnerability-test
 
 ### Bypass Paywalls
 Bypass Paywalls to rozszerzenie przeglądarki internetowej, które pomaga ominąć zapory dla wybranych stron.
-https://github.com/iamadamdev/bypass-paywalls-chrome
+https://github.com/iamadamdev/bypass-paywalls-chrome#readme
 
 ### Save To The Wayback Machine
 Szybko zapisz strony internetowe na Wayback Machine w Archiwum internetowym i sprawdź, kiedy ostatnio twoja strona została zarchiwizowana. https://addons.mozilla.org/en-GB/firefox/addon/save-to-the-wayback-machine/
