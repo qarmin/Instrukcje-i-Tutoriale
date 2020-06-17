@@ -39,7 +39,6 @@ lub zafundować mi kawę
   - [Stylus](#stylus)
   - [User Agent Switcher](#user-agent-switcher-and-manager)
   - [CSS Exfil Protection](#css-exfil-protection)
-  - [Bypass Paywalls](#bypass-paywalls)
   - [Save To The Wayback Machine](save-to-the-wayback-machine)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
@@ -291,10 +290,6 @@ https://www.whatismybrowser.com/detect/what-is-my-user-agent
 CSS Exfil jest metodą, którą atakujący mogą wykorzystać do kradzieży danych ze stron internetowych za pomocą kaskadowych arkuszy stylów (CSS). Ten plugin odkaża i blokuje wszelkie reguły CSS, które mogą być przeznaczone do kradzieży danych. https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/
 
 Sprawdź podatność https://www.mike-gualtieri.com/css-exfil-vulnerability-tester
-
-### Bypass Paywalls
-Bypass Paywalls to rozszerzenie przeglądarki internetowej, które pomaga ominąć zapory dla wybranych stron.
-https://github.com/iamadamdev/bypass-paywalls-chrome#readme
 
 ### Save To The Wayback Machine
 Szybko zapisz strony internetowe na Wayback Machine w Archiwum internetowym i sprawdź, kiedy ostatnio twoja strona została zarchiwizowana. https://addons.mozilla.org/en-GB/firefox/addon/save-to-the-wayback-machine/
