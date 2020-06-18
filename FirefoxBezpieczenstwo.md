@@ -40,6 +40,7 @@ lub zafundować mi kawę
   - [User Agent Switcher](#user-agent-switcher-and-manager)
   - [CSS Exfil Protection](#css-exfil-protection)
   - [Save To The Wayback Machine](save-to-the-wayback-machine)
+  - [Privacy Redirect](#privacy-redirect)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
 ## Kilka zasad bezpieczeństwa
@@ -293,6 +294,9 @@ Sprawdź podatność https://www.mike-gualtieri.com/css-exfil-vulnerability-test
 
 ### Save To The Wayback Machine
 Szybko zapisz strony internetowe na Wayback Machine w Archiwum internetowym i sprawdź, kiedy ostatnio twoja strona została zarchiwizowana. https://addons.mozilla.org/en-GB/firefox/addon/save-to-the-wayback-machine/
+
+### Privacy Redirect
+Proste rozszerzenie internetowe, które przekierowuje Twittera, YouTube'a, Instagrama i Map Google do alternatyw przyjaznych dla prywatności. https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/
 
 ### Rozszerzenia specyficzne dla YouTube
 https://github.com/pietervanheijningen/clickbait-remover-for-youtube<br/>
