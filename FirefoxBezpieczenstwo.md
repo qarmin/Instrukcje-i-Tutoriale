@@ -39,7 +39,7 @@ lub zafundować mi kawę
   - [Stylus](#stylus)
   - [User Agent Switcher](#user-agent-switcher-and-manager)
   - [CSS Exfil Protection](#css-exfil-protection)
-  - [Save To The Wayback Machine](save-to-the-wayback-machine)
+  - [Save To The Wayback Machine](#save-to-the-wayback-machine)
   - [Privacy Redirect](#privacy-redirect)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
