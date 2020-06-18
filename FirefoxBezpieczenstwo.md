@@ -25,7 +25,7 @@ lub zafundować mi kawę
 - [Wtyczki](#wtyczki)
   - [uBlock Origin](#ublock-origin---blokowanie-reklam)
   - [HTTPS Everywhere](#https-everywhere---szyfrowana-sieć)
-  - [Decentraleyes](#decentraleyes---blokowanie-śledzenia-przez-cdn)
+  - [LocalCDN](#localcdn---blokowanie-śledzenia-przez-cdn)
   - [Containers](#containers---zamykanie-stron-w-kontenery)
   - [Canvas Blocker](#canvas-blocker-fingerprint-protect---zmiana-odcisku-palca)
   - [Privacy Possum](#privacy-possum---utrudnia-śledzenie)
@@ -206,11 +206,11 @@ W przypadku gdy akurat strona na którą musimy wejść przesyłana jest bez szy
 
 ![S](https://user-images.githubusercontent.com/41945903/68146009-55d7c900-ff37-11e9-9696-44995ee0d79e.png)
 
-### Decentraleyes - Blokowanie śledzenia przez CDN
-Decentraleyes jest dodatkiem umożliwiającym blokowanie śledzenia przez CDN(Content Networks Delivery).  
+### LocalCDN - Blokowanie śledzenia przez CDN
+LocalCDN jest forkiem [Decentraleyes](https://codeberg.org/nobody/LocalCDN#user-content-differences-between-localcdn-and-decentraleyes), umożliwiającym blokowanie śledzenia przez CDN(Content Networks Delivery).  
 Zapobiega wysyłaniu zapytań do sieci, które mogłyby zostać użyte w celu zbierania informacji o użytkowniku, poprzez dostarczanie lokalnie zasobów CDN.
 
-Dodatek działa od razu po instalacji i można pobrać go ze strony - https://addons.mozilla.org/pl/firefox/addon/decentraleyes/
+Dodatek działa od razu po instalacji i można pobrać go ze strony https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/
 
 ### Containers - Zamykanie stron w kontenery
 #### Dla początkujących
