@@ -41,6 +41,7 @@ lub zafundować mi kawę
   - [CSS Exfil Protection](#css-exfil-protection)
   - [Save To The Wayback Machine](#save-to-the-wayback-machine)
   - [AutoScrolling](#autoscrolling)
+  - [weAutoPagerize](#weautopagerize)
   - [Privacy Redirect](#privacy-redirect)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
@@ -299,6 +300,9 @@ Szybko zapisz strony internetowe na Wayback Machine w Archiwum internetowym i sp
 ### AutoScrolling
 Ta wtyczka umożliwia automatyczne przewijanie bez użycia kółka myszy. Jeśli klikniesz 
 https://addons.mozilla.org/ja/firefox/addon/autoscrolling/
+
+### weAutoPagerize
+Automatycznie wstawia następną stronę. https://addons.mozilla.org/en-US/firefox/addon/weautopagerize/
 
 ### Privacy Redirect
 Proste rozszerzenie internetowe, które przekierowuje Twittera, YouTube'a, Instagrama i Map Google do alternatyw przyjaznych dla prywatności. https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/
