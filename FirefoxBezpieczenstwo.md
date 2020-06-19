@@ -103,6 +103,8 @@ https://search.privacytools.io/?q=%s&categories=general&language=pl-PL
 https://www.qwant.com/?q=%s
 ```
 
+Aby porównać wyszukiwarki, zainstaluj https://addons.mozilla.org/en-US/firefox/addon/searchpreview/
+
 ## Wbudowana ochrona przed śledzeniem
 Firefox oferuje domyślnie **Standardową** ochronę przed śledzącymi skryptami, ciasteczkami czy kryptowalutami.  
 
