@@ -66,7 +66,7 @@ Usually, the time between creating and including a patch in the repository and d
 However this is cause why users compile programs on their own to take advantage of the latest bug fixes or features, even though the author has not yet released the official binary.  
 Additionally, we can compile and test various forks and PRs of new features/fixed bugs even though they are not yet included in a given repository.
 
-[S](https://user-images.githubusercontent.com/41945903/85174510-cbe63180-b275-11ea-8941-67b6ffb7d6f2.png)
+![S](https://user-images.githubusercontent.com/41945903/85174510-cbe63180-b275-11ea-8941-67b6ffb7d6f2.png)
 
 ## Better bug reports
 If we noticed an incorrect operation of the function, which worked correctly in earlier versions of the program, we should include in the bug report information between which versions the bug occurs.  
