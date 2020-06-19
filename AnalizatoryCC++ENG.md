@@ -6,7 +6,7 @@ The solution to these problems in many cases are static and dynamic code analyze
 
 All tools I'm going to present are free for open-source projects (with a small exception of PVS-Studio, but about that later), many of which can be easily integrated with CI (in my case Gitlab CI) for autimatical code and regression checking.
 
-I have integrated many projects with Sonarcloud, Cppcheck and Coverity Scan, whose code and implementation details can be found here - https://gitlab.com/dashboard/projects.
+I have integrated many projects with Sonarcloud, Cppcheck and Coverity Scan, whose codes and implementation details can be found here - https://gitlab.com/dashboard/projects.
 
 The results of Sonarcloud scans can be found here - https://sonarcloud.io/organizations/qarmin-1/projects and Cppcheck in pipelins in a given project on Gitlab e.g. https://qarmin.gitlab.io/-/godot/-/jobs/526221853/artifacts/report/index.html
 
@@ -18,7 +18,7 @@ All we have to do is enter the project directory and run Cppcheck there, or use 
 
 It has many kinds of results presentation, but for me the most convenient method is to export to html (shown in the example at the bottom)
 
-Example of integration with Gitlab CI - https://gitlab.com/qarmin/godot/-/blob/master/.gitlab-ci.yml#L48-59 
+Example of integration with Gitlab CI - https://gitlab.com/qarmin/godot/-/blob/master/.gitlab-ci.yml#L48-59
 
 
 ### Sample Reports
@@ -147,27 +147,27 @@ It runs the code in one thread, so its performance is not very satisfactory for 
 ==50713== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
 ==50713== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
 ==50713== Command: ./rr.out
-==50713== 
-==50713== 
+==50713==
+==50713==
 ==50713== HEAP SUMMARY:
 ==50713==     in use at exit: 2,400 bytes in 2 blocks
 ==50713==   total heap usage: 3 allocs, 1 frees, 75,104 bytes allocated
-==50713== 
+==50713==
 ==50713== 800 bytes in 1 blocks are definitely lost in loss record 1 of 2
 ==50713==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
 ==50713==    by 0x10919E: main (in /home/rafal/rr.out)
-==50713== 
+==50713==
 ==50713== 1,600 bytes in 1 blocks are definitely lost in loss record 2 of 2
 ==50713==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
 ==50713==    by 0x1091AC: main (in /home/rafal/rr.out)
-==50713== 
+==50713==
 ==50713== LEAK SUMMARY:
 ==50713==    definitely lost: 2,400 bytes in 2 blocks
 ==50713==    indirectly lost: 0 bytes in 0 blocks
 ==50713==      possibly lost: 0 bytes in 0 blocks
 ==50713==    still reachable: 0 bytes in 0 blocks
 ==50713==         suppressed: 0 bytes in 0 blocks
-==50713== 
+==50713==
 ==50713== For lists of detected and suppressed errors, rerun with: -s
 ==50713== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
 ```
@@ -181,7 +181,7 @@ sudo apt install valgrind
 g++ rr.cpp -o rr.out
 valgrind --leak-check=full ./rr.out
 ```
-## 7. Heaptrack 
+## 7. Heaptrack
 Displays in graphic form the number of allocations, memory leaks, memory consumption per time unit.  
 It is much faster than Valgrind in detecting memory leaks, but I guess there is no option to display them in text form.
 
@@ -243,7 +243,7 @@ previously allocated by thread T0 here:
 - Undefined Sanitizer - Responsible for detecting situations not defined in the documents describing the C/C++ language standard, e.g. a bit shift by a value greater than the length of a variable (int a = 25  552), dividing by zero or writing to a variable a value outside its range
 ```
 servers/visual_server.cpp:513:17: runtime error: -2.42852 is outside the range of representable values of type 'unsigned char'
-SUMMARY: UndefinedBehaviorSanitizer: undefined-behavior servers/visual_server.cpp:513:17 in 
+SUMMARY: UndefinedBehaviorSanitizer: undefined-behavior servers/visual_server.cpp:513:17 in
 
 or
 

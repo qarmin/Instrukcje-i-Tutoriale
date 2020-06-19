@@ -41,10 +41,10 @@ version: '3.7'
 services:
   deemix:
     container_name: deemix
-    image: bocki/deemix
+    image: registry.gitlab.com/bockiii/deemix-docker
     restart: unless-stopped
     ports:
-      - 9666:9666
+      - "6595:6595"
     environment:
       - PUID=1000
       - PGID=1000
@@ -65,8 +65,10 @@ In this file you have to change `AAAAAAAAAAAAA to the previously copied `arl` va
 
 Then, being in exactly the same folder, you can start the server using the `docker-compose up -d` command.
 
-After about 1 minute (this may take a little longer) you can use the server at `http://localhost:9666/`.
+After about 1 minute (this may take a little longer) you can use the server at `http://localhost:6595/`.
 
 ![Heheszki](https://user-images.githubusercontent.com/41945903/83638000-c36cd600-a5a8-11ea-92a2-b7c1249af4c4.png)
 
 8. You can now download any music to listen to it without any app.
+
+9. For any questions or bugs should used subreddit - https://www.reddit.com/r/deemix

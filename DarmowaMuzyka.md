@@ -41,10 +41,10 @@ version: '3.7'
 services:
   deemix:
     container_name: deemix
-    image: bocki/deemix
+    image: registry.gitlab.com/bockiii/deemix-docker
     restart: unless-stopped
     ports:
-      - 9666:9666
+      - "6595:6595"
     environment:
       - PUID=1000
       - PGID=1000
@@ -65,8 +65,10 @@ volumes:
 
 6. Następnie będąc dokładnie w tym samym folderze możesz uruchomić serwer korzystając z polecenia `docker-compose up -d`
 
-7. Po około 1 minucie(może trwać to trochę dłużej) można skorzystać z serwera pod adresem `http://localhost:9666/`
+7. Po około 1 minucie(może trwać to trochę dłużej) można skorzystać z serwera pod adresem `http://localhost:6595/`
 
 ![Heheszki](https://user-images.githubusercontent.com/41945903/83638000-c36cd600-a5a8-11ea-92a2-b7c1249af4c4.png)
 
 8. Można od tej pory pobierać dowolną muzykę do słuchania jej bez konieczności posiadania jakiejkolwiek aplikacji.
+
+9. W razie problemów należy zgłaszać błędy lub pytania na subreddicie - https://www.reddit.com/r/deemix

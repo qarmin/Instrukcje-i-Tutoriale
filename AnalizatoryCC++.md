@@ -6,7 +6,7 @@ Rozwiązaniem tych problemów w wielu przypadkach są statyczne i dynamiczne ana
 
 Wszystkie narzędzia które przedstawię są darmowe dla projektów open-source(z małym wyjątkiem PVS-Studio, ale o tym później), których znaczna część może być łatwo zintegrowana z CI(w moim wypadku Gitlab CI) do autymatycznego sprawdzania kodu i regresji.
 
-Integrowałem z Sonarcloudem, Cppcheck oraz Coverity Scan wiele projektów, których kody wraz ze szczegółami implementacji można znaleźć tutaj - https://gitlab.com/dashboard/projects.
+Integrowałem z Sonarcloudem, Cppcheck oraz Coverity Scan wiele projektów, których kody wraz ze szczegółami implementacji można znaleźć tutaj - https://gitlab.com/users/qarmin/projects.
 
 Wyniki skanów Sonarclouda można znaleźć tutaj - https://sonarcloud.io/organizations/qarmin-1/projects a Cppcheck w pipelinach w danym projekcie na Gitlabie np. https://qarmin.gitlab.io/-/godot/-/jobs/526221853/artifacts/report/index.html
 
