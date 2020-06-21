@@ -108,6 +108,8 @@ Aby na stałe odfiltrować jakąś strone z wyników wyszukiwania, użyj
 https://duckduckgo.com/?q=-site:TuDomenaStrony.pl%20%s
 ```
 
+Alternatywnie możesz użyć rozszerzenia https://addons.mozilla.org/en-US/firefox/addon/searchmage-search-enhancer/
+
 Aby porównać, zainstaluj https://addons.mozilla.org/en-US/firefox/addon/searchpreview/
 
 ## Wbudowana ochrona przed śledzeniem
