@@ -103,12 +103,8 @@ https://search.privacytools.io/?q=%s&categories=general&language=pl-PL
 https://www.qwant.com/?q=%s
 ```
 
-Aby na stałe odfiltrować jakąś strone z wyników wyszukiwania, użyj
-```
-https://duckduckgo.com/?q=-site:TuDomenaStrony.pl%20%s
-```
-
-Alternatywnie możesz użyć rozszerzenia https://addons.mozilla.org/en-US/firefox/addon/searchmage-search-enhancer/
+Aby na stałe odfiltrować jakąś strone z wyników wyszukiwania, użyj rozszerzenia 
+https://addons.mozilla.org/en-US/firefox/addon/searchmage-search-enhancer/
 
 Aby porównać, zainstaluj https://addons.mozilla.org/en-US/firefox/addon/searchpreview/
 
