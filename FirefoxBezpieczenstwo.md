@@ -56,6 +56,7 @@ lub zafundować mi kawę
 - Nie wpisuj swoich danych logowania na stronach [nieobsługujących szyfrowania](#https-everywhere---szyfrowana-sieć)
 - Stosuj unikalne hasła dla każdego serwisu, najlepiej korzystając z [menedżera haseł](#keepassxc)
 - Nie wpinaj do swojego komputera pendrivów i dysków nieznanego pochodzenia
+- [Szyfruj](https://mhogomchungu.github.io/sirikali/#screenshots) swoje prywatne dane przed udostępnieniem w chmurze
 
 ## DoH - szyfrowane DNS
 DoH jest dostępną od niedawna usługą, która pozwala na szyfrowanie zapytań DNS, które to odpowiedzialne są za konwersje nazw stron np. 'facebook.com' na adres IP do nich przypisany - '31.13.81.36', dzięki czemu nikt oprócz ciebie i serwera DNS nie będzie w stanie poznać nazwy strony którą chcemy odwiedzić.
