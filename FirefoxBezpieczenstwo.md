@@ -40,7 +40,7 @@ lub zafundować mi kawę
   - [User Agent Switcher](#user-agent-switcher-and-manager)
   - [CSS Exfil Protection](#css-exfil-protection)
   - [Save To The Wayback Machine](#save-to-the-wayback-machine)
-  - [AutoScrolling](#autoscrolling)
+  - [FoxScroller](#foxscroller)
   - [weAutoPagerize](#weautopagerize)
   - [Privacy Redirect](#privacy-redirect)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
@@ -308,7 +308,7 @@ Ta wtyczka umożliwia automatyczne przewijanie bez użycia kółka myszy. Jeśli
 https://addons.mozilla.org/en-US/firefox/addon/foxscroller/
 
 ### weAutoPagerize
-Automatycznie wstawia następną stronę. https://addons.mozilla.org/en-US/firefox/addon/weautopagerize/
+Automatycznie wstawia następną stronę[*](https://github.com/wantora/weautopagerize#compatibility-table). https://addons.mozilla.org/en-US/firefox/addon/weautopagerize/
 
 ### Privacy Redirect
 Proste rozszerzenie internetowe, które przekierowuje Twittera, YouTube'a, Instagrama i Map Google do alternatyw przyjaznych dla prywatności. https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/
