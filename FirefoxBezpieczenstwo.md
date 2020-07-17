@@ -317,8 +317,7 @@ Proste rozszerzenie internetowe, które przekierowuje Twittera, YouTube'a, Insta
 https://github.com/pietervanheijningen/clickbait-remover-for-youtube<br/>
 https://github.com/lawfx/YoutubeNonStop#readme<br/>
 https://github.com/erkserkserks/h264ify#readme<br/>
-https://github.com/ajayyy/SponsorBlock#readme<br/>
-https://gitlab.com/Cha_deL/peertubeify
+https://github.com/ajayyy/SponsorBlock#readme
 
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
