@@ -303,9 +303,9 @@ Sprawdź podatność https://www.mike-gualtieri.com/css-exfil-vulnerability-test
 ### Save To The Wayback Machine
 Szybko zapisz strony internetowe na Wayback Machine w Archiwum internetowym i sprawdź, kiedy ostatnio twoja strona została zarchiwizowana. https://addons.mozilla.org/en-GB/firefox/addon/save-to-the-wayback-machine/
 
-### AutoScrolling
+### FoxScroller
 Ta wtyczka umożliwia automatyczne przewijanie bez użycia kółka myszy. Jeśli klikniesz 
-https://addons.mozilla.org/ja/firefox/addon/autoscrolling/
+https://addons.mozilla.org/en-US/firefox/addon/foxscroller/
 
 ### weAutoPagerize
 Automatycznie wstawia następną stronę. https://addons.mozilla.org/en-US/firefox/addon/weautopagerize/
