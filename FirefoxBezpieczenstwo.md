@@ -82,6 +82,8 @@ Wyłączyć można je w ustawieniach Firefoxa w zakładce **Prywatność i Bezpi
 
 Jeśli masz najnowszą wersje przeglądarki, w **about:config** wpisz **telemetry** i ustaw wszystko na **false**
 
+`*` Nie wymagane w przypadku posiadania przeglądarki [LibreWolf](https://librewolf-community.gitlab.io/)
+
 ## Prywatna wyszukiwarka
 
 Domyślną wyszukiwarką w Firefoxie jest wyszukiwarka Google, która to przetwarza zapytania użytkownika tworząc na jego podstawie profil użytkownika, sprzedając te dane reklamodawcom.  
