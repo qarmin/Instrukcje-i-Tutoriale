@@ -82,7 +82,7 @@ Wyłączyć można je w ustawieniach Firefoxa w zakładce **Prywatność i Bezpi
 
 Jeśli masz najnowszą wersje przeglądarki, w **about:config** wpisz **telemetry** i ustaw wszystko na **false**
 
-`*` Nie wymagane w przypadku posiadania przeglądarki [LibreWolf](https://librewolf-community.gitlab.io/)
+`*` Nie wymagane w przypadku posiadania przeglądarki [LibreWolf](https://librewolf-community.gitlab.io/) lub [Privacy-Fighter](https://github.com/jotyGill/privacy-fighter#readme)
 
 ## Prywatna wyszukiwarka
 
