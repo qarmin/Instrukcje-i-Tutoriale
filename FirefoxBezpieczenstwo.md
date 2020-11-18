@@ -42,6 +42,7 @@ lub zafundować mi kawę
   - [Save To The Wayback Machine](#save-to-the-wayback-machine)
   - [FoxScroller](#foxscroller)
   - [weAutoPagerize](#weautopagerize)
+  - [Worldwide Radio](#worldwide-radio)
   - [Privacy Redirect](#privacy-redirect)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
@@ -82,7 +83,7 @@ Wyłączyć można je w ustawieniach Firefoxa w zakładce **Prywatność i Bezpi
 
 Jeśli masz najnowszą wersje przeglądarki, w **about:config** wpisz **telemetry** i ustaw wszystko na **false**
 
-`*` Nie wymagane w przypadku posiadania przeglądarki [LibreWolf](https://librewolf-community.gitlab.io/) lub [Privacy-Fighter](https://github.com/jotyGill/privacy-fighter#readme)
+`*` Nie wymagane w przypadku posiadania przeglądarki [LibreWolf](https://librewolf-community.gitlab.io/)
 
 ## Prywatna wyszukiwarka
 
@@ -109,7 +110,7 @@ https://www.qwant.com/?q=%s
 Aby na stałe odfiltrować jakąś strone z wyników wyszukiwania, użyj rozszerzenia 
 https://addons.mozilla.org/en-US/firefox/addon/searchmage-search-enhancer/
 
-Aby porównać, zainstaluj https://addons.mozilla.org/en-US/firefox/addon/searchpreview/
+Aby mieć wyniki wyszukiwania z podglądem, zainstaluj https://addons.mozilla.org/en-US/firefox/addon/searchpreview/
 
 ## Wbudowana ochrona przed śledzeniem
 Firefox oferuje domyślnie **Standardową** ochronę przed śledzącymi skryptami, ciasteczkami czy kryptowalutami.  
@@ -311,6 +312,10 @@ https://addons.mozilla.org/en-US/firefox/addon/foxscroller/
 
 ### weAutoPagerize
 Automatycznie wstawia następną stronę[*](https://github.com/wantora/weautopagerize#compatibility-table). https://addons.mozilla.org/en-US/firefox/addon/weautopagerize/
+
+### Worldwide Radio
+Słuchaj na żywo stacji radiowych z całego świata.
+https://addons.mozilla.org/en-US/firefox/addon/worldwide-radio/
 
 ### Privacy Redirect
 Proste rozszerzenie internetowe, które przekierowuje Twittera, YouTube'a, Instagrama i Map Google do alternatyw przyjaznych dla prywatności. https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/
