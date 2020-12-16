@@ -57,6 +57,7 @@ lub zafundować mi kawę
 - Nie wpisuj swoich danych logowania na stronach [nieobsługujących szyfrowania](#https-everywhere---szyfrowana-sieć)
 - Stosuj unikalne hasła dla każdego serwisu, najlepiej korzystając z [menedżera haseł](#keepassxc)
 - Nie wpinaj do swojego komputera pendrivów i dysków nieznanego pochodzenia
+- Na ogólnodostępnych punktach wifi korzystaj z [vpn](https://www.freepn.org/)
 - [Szyfruj](https://mhogomchungu.github.io/sirikali/#screenshots) swoje prywatne dane przed udostępnieniem w chmurze
 
 ## DoH - szyfrowane DNS
