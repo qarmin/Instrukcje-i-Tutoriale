@@ -42,6 +42,7 @@ lub zafundować mi kawę
   - [Save To The Wayback Machine](#save-to-the-wayback-machine)
   - [FoxScroller](#foxscroller)
   - [weAutoPagerize](#weautopagerize)
+  - [Worldwide Radio](#worldwide-radio)
   - [Privacy Redirect](#privacy-redirect)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
@@ -51,11 +52,11 @@ lub zafundować mi kawę
 - Nie udostępniaj nikomu swoich danych osobowych takich jak nazwisko czy miejsce zamieszkania
 - Nie loguj się na swoje konta, na urządzeniach co do których nie masz pewności, że nie są zarażone wirusem
 - Staraj się instalować programy ze stron domowej ich producenta, GitHuba lub ze sklepów z oprogramowaniem
-- Na [Windowsie](https://pl.privacytools.io/operating-systems/#win10) korzystaj z oprogramowania antywirusowego i [zapory](https://github.com/henrypp/simplewall/releases)
-- Na [Linuxie](https://github.com/qarmin/GNU-Linux-Podstawy#readme) korzystaj z [sandboxa](https://github.com/netblue30/firejail#readme) i ufw
+- Na [Windowsie](https://pl.privacytools.io/operating-systems/#win10) korzystaj z oprogramowania antywirusowego i [zapory](https://github.com/henrypp/simplewall/releases) / Na [Linuxie](https://github.com/qarmin/GNU-Linux-Podstawy#readme) korzystaj z [sandboxa](https://github.com/netblue30/firejail#readme) i ufw
 - Nie wpisuj swoich danych logowania na stronach [nieobsługujących szyfrowania](#https-everywhere---szyfrowana-sieć)
-- Stosuj unikalne hasła dla każdego serwisu, najlepiej korzystając z [menedżera haseł](#keepassxc)
+- Stosuj [unikalne hasła](https://haveibeenpwned.com/Passwords) dla każdego serwisu, najlepiej korzystając z [menedżera haseł](#keepassxc)
 - Nie wpinaj do swojego komputera pendrivów i dysków nieznanego pochodzenia
+- Na ogólnodostępnych punktach wifi korzystaj z [vpn](https://www.freepn.org/) lub [wireguard](https://github.com/angristan/wireguard-install#readme)
 - [Szyfruj](https://mhogomchungu.github.io/sirikali/#screenshots) swoje prywatne dane przed udostępnieniem w chmurze
 
 ## DoH - szyfrowane DNS
@@ -82,7 +83,7 @@ Wyłączyć można je w ustawieniach Firefoxa w zakładce **Prywatność i Bezpi
 
 Jeśli masz najnowszą wersje przeglądarki, w **about:config** wpisz **telemetry** i ustaw wszystko na **false**
 
-`*` Nie wymagane w przypadku posiadania przeglądarki [LibreWolf](https://librewolf-community.gitlab.io/) lub [Privacy-Fighter](https://github.com/jotyGill/privacy-fighter#readme)
+`*` Nie wymagane w przypadku posiadania przeglądarki [LibreWolf](https://librewolf-community.gitlab.io/)
 
 ## Prywatna wyszukiwarka
 
@@ -109,7 +110,7 @@ https://www.qwant.com/?q=%s
 Aby na stałe odfiltrować jakąś strone z wyników wyszukiwania, użyj rozszerzenia 
 https://addons.mozilla.org/en-US/firefox/addon/searchmage-search-enhancer/
 
-Aby porównać, zainstaluj https://addons.mozilla.org/en-US/firefox/addon/searchpreview/
+Aby mieć wyniki wyszukiwania z podglądem, zainstaluj https://addons.mozilla.org/en-US/firefox/addon/searchpreview/
 
 ## Wbudowana ochrona przed śledzeniem
 Firefox oferuje domyślnie **Standardową** ochronę przed śledzącymi skryptami, ciasteczkami czy kryptowalutami.  
@@ -312,6 +313,10 @@ https://addons.mozilla.org/en-US/firefox/addon/foxscroller/
 ### weAutoPagerize
 Automatycznie wstawia następną stronę[*](https://github.com/wantora/weautopagerize#compatibility-table). https://addons.mozilla.org/en-US/firefox/addon/weautopagerize/
 
+### Worldwide Radio
+Słuchaj na żywo stacji radiowych z całego świata.
+https://addons.mozilla.org/en-US/firefox/addon/worldwide-radio/
+
 ### Privacy Redirect
 Proste rozszerzenie internetowe, które przekierowuje Twittera, YouTube'a, Instagrama i Map Google do alternatyw przyjaznych dla prywatności. https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/
 
@@ -340,8 +345,7 @@ Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:conf
 - `plugins.enumerable_names = "puste pole"` - Zapobiega odczytywaniu listy dostępnych wtyczek
 - `security.tls.version.min = 2` - Skuteczniejsze szyfrowanie TLS 1.2 (może powodować problemy ze stronami które nie wspierają silnego szyfrowania tls 1.2)
 
-Szablony user.js dla Firefox
-- ang [ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) - Trwający obszerny szablon user.js służący do konfigurowania i utwardzania prywatności, bezpieczeństwa i ochrony przed pobieraniem odcisków palców Firefoksa.
-- ang [pyllyukko/user.js](https://github.com/pyllyukko/user.js) - Jest to plik konfiguracyjny user.js, który utwardza ustawienia Firefoksa i czyni go bardziej bezpiecznym.
+Szablon user.js dla Firefox
+- ang [ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) - Obszerny szablon user.js służący do konfigurowania i utwardzania prywatności, bezpieczeństwa i ochrony przed pobieraniem odcisków palców Firefoksa.
 
 sprawdź czy twoja konfiguracja jest powtarzalna https://amiunique.org/fp
