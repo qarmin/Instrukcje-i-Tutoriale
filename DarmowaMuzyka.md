@@ -71,6 +71,6 @@ volumes:
 
 8. Można od tej pory pobierać dowolną muzykę do słuchania jej bez konieczności posiadania jakiejkolwiek aplikacji.
 
-9. Od czasu do czasu(z mojego doświadczenia co około 3 miesiące) będzie konieczna aktualizacja
+9. Od czasu do czasu(z mojego doświadczenia co około 3 miesiące) będzie konieczna aktualizacja linku ARL
 
 10. W razie problemów należy zgłaszać błędy lub pytania na subreddicie - https://www.reddit.com/r/deemix
