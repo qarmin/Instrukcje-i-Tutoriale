@@ -56,7 +56,7 @@ lub zafundować mi kawę
 - Nie wpisuj swoich danych logowania na stronach [nieobsługujących szyfrowania](#https-everywhere---szyfrowana-sieć)
 - Stosuj [unikalne hasła](https://haveibeenpwned.com/Passwords) dla każdego serwisu, najlepiej korzystając z [menedżera haseł](#keepassxc)
 - Nie wpinaj do swojego komputera pendrivów i dysków nieznanego pochodzenia
-- Na ogólnodostępnych punktach wifi korzystaj z vpn lub [wireguard](https://github.com/angristan/wireguard-install#readme)
+- Na ogólnodostępnych punktach wifi korzystaj z [vpn](https://www.privacytools.io/providers/vpn/#vpn) lub [wireguard](https://github.com/angristan/wireguard-install#readme)
 - [Szyfruj](https://mhogomchungu.github.io/sirikali/#screenshots) swoje prywatne dane przed udostępnieniem w chmurze
 
 ## DoH - szyfrowane DNS
