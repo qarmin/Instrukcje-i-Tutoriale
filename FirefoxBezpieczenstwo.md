@@ -30,7 +30,6 @@ lub zafundować mi kawę
   - [Canvas Blocker](#canvas-blocker-fingerprint-protect---zmiana-odcisku-palca)
   - [Privacy Possum](#privacy-possum---utrudnia-śledzenie)
   - [Polska Ciasteczkowa Zgoda](#polska-ciasteczkowa-zgoda)
-  - [Nano Defender](#nano-defender)
   - [Tab Stash](#tab-stash)
   - [Simple Translate](#simple-translate)
   - [Search by Image](#search-by-image)
@@ -262,12 +261,6 @@ Pamiętaj by nie duplikować z innymi rozszerzeniami, takimi jak: Ghostery, Disc
 Rozszerzenie automatycznie akceptujące politykę ciasteczek/RODO na stronach dostępnych w języku polskim. Stanowi ono uzupełnienie [Polskich Filtrów Rodo-Ciasteczkowych](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/cookies_filters/adblock_cookies.txt&title=Polskie%20Filtry%20RODO-Ciasteczkowe) (wchodzących też w skład **Polskich Filtrów Elementów Irytujących**) oraz wymaganej przez nie listy [I don't care about cookies](https://subscribe.adblockplus.org/?location=https://www.i-dont-care-about-cookies.eu/abp/&title=I%20dont%20care%20about%20cookies).
 
 https://addons.mozilla.org/pl/firefox/addon/polish-cookie-consent/
-
-### Nano Defender
-
-[Nano Defender](https://addons.mozilla.org/en-US/firefox/addon/nano-defender-firefox/) to połączenie skryptu [AAK](https://github.com/reek/anti-adblock-killer/wiki/) z dodatkiem [uBlock Origin Extra](https://github.com/gorhill/uBO-Extra). Korzystając z Nano Defendera i [uBlocka Origin](https://addons.mozilla.org/pl/firefox/addon/ublock-origin/) lub [Nano Adblockera](https://addons.mozilla.org/en-US/firefox/addon/nano-adblocker-firefox/) nie będziesz musiał przejmować się skryptami anty-adblock które uniemożliwiają dostępu do stron.
-
-https://majkiit.github.io/polish-ads-filter/docs/advanced/install-nano-defender/
 
 ### Tab Stash
 
