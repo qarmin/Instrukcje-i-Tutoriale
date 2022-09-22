@@ -314,7 +314,7 @@ Ta wtyczka umożliwia automatyczne przewijanie bez użycia kółka myszy. Jeśli
 https://addons.mozilla.org/en-US/firefox/addon/foxscroller/
 
 ### weAutoPagerize
-Automatycznie wstawia następną stronę[*](https://github.com/wantora/weautopagerize#compatibility-table). 
+Automatycznie wstawia następną stronę[*](https://github.com/wantora/weautopagerize#compatibility-table).
 https://addons.mozilla.org/en-US/firefox/addon/weautopagerize/
 
 ### Privacy Redirect
