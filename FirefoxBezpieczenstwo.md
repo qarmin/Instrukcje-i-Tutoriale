@@ -324,7 +324,7 @@ https://github.com/Anarios/return-youtube-dislike#readme<br/>
 https://github.com/lawfx/YoutubeNonStop#readme<br/>
 https://github.com/erkserkserks/h264ify#readme<br/>
 https://github.com/ajayyy/SponsorBlock#readme<br/>
-https://github.com/amitbl/blocktube<br/>
+https://github.com/amitbl/blocktube#readme<br/>
 https://unhook.app/
 
 ## Zaawansowane ustawienia
