@@ -51,7 +51,7 @@ lub zafundować mi kawę
 - Nie udostępniaj nikomu swoich danych osobowych takich jak nazwisko czy miejsce zamieszkania
 - Nie loguj się na swoje konta, na urządzeniach co do których nie masz pewności, że nie są zarażone wirusem
 - Staraj się instalować programy ze stron domowej ich producenta, GitHuba lub ze sklepów z oprogramowaniem
-- Na [Windowsie](https://pl.privacytools.io/operating-systems/#win10) korzystaj z oprogramowania antywirusowego i [zapory](https://github.com/henrypp/simplewall/releases) / Na [Linuxie](https://github.com/qarmin/GNU-Linux-Podstawy#readme) korzystaj z [sandboxa](https://github.com/netblue30/firejail#readme) i ufw
+- Na Windowsie korzystaj z oprogramowania antywirusowego i [zapory](https://github.com/henrypp/simplewall/releases) / Na [Linuxie](https://github.com/qarmin/GNU-Linux-Podstawy#readme) korzystaj z [sandboxa](https://github.com/netblue30/firejail#readme) i ufw
 - Nie wpisuj swoich danych logowania na stronach [nieobsługujących szyfrowania](#https-everywhere---szyfrowana-sieć)
 - Stosuj [unikalne hasła](https://haveibeenpwned.com/Passwords) dla każdego serwisu, najlepiej korzystając z [menedżera haseł](#keepassxc)
 - Nie wpinaj do swojego komputera pendrivów i dysków nieznanego pochodzenia
