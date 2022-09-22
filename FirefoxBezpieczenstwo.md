@@ -42,7 +42,7 @@ lub zafundować mi kawę
   - [FoxScroller](#foxscroller)
   - [weAutoPagerize](#weautopagerize)
   - [Privacy Redirect](#privacy-redirect)
-  - [Language Tool](language-tool)
+  - [Language Tool](#language-tool)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
 ## Kilka zasad bezpieczeństwa
