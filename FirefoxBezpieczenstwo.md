@@ -325,6 +325,7 @@ Wielojęzyczne narzędzie do sprawdzania gramatyki, stylu i pisowni.
 https://addons.mozilla.org/pl/firefox/addon/languagetool/
 
 ### Rozszerzenia specyficzne dla YouTube
+https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass#readme<br/>
 https://github.com/pietervanheijningen/clickbait-remover-for-youtube<br/>
 https://github.com/Anarios/return-youtube-dislike#readme<br/>
 https://github.com/lawfx/YoutubeNonStop#readme<br/>
