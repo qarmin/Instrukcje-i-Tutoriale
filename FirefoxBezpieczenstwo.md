@@ -41,8 +41,8 @@ lub zafundować mi kawę
   - [Save To The Wayback Machine](#save-to-the-wayback-machine)
   - [FoxScroller](#foxscroller)
   - [weAutoPagerize](#weautopagerize)
-  - [Worldwide Radio](#worldwide-radio)
   - [Privacy Redirect](#privacy-redirect)
+  - [Language Tool](#language-tool)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
 ## Kilka zasad bezpieczeństwa
@@ -51,7 +51,7 @@ lub zafundować mi kawę
 - Nie udostępniaj nikomu swoich danych osobowych takich jak nazwisko czy miejsce zamieszkania
 - Nie loguj się na swoje konta, na urządzeniach co do których nie masz pewności, że nie są zarażone wirusem
 - Staraj się instalować programy ze stron domowej ich producenta, GitHuba lub ze sklepów z oprogramowaniem
-- Na [Windowsie](https://pl.privacytools.io/operating-systems/#win10) korzystaj z oprogramowania antywirusowego i [zapory](https://github.com/henrypp/simplewall/releases) / Na [Linuxie](https://github.com/qarmin/GNU-Linux-Podstawy#readme) korzystaj z [sandboxa](https://github.com/netblue30/firejail#readme) i ufw
+- Na Windowsie korzystaj z oprogramowania antywirusowego i [zapory](https://github.com/henrypp/simplewall/releases) / Na [Linuxie](https://github.com/qarmin/GNU-Linux-Podstawy#readme) korzystaj z [sandboxa](https://github.com/netblue30/firejail#readme) i ufw
 - Nie wpisuj swoich danych logowania na stronach [nieobsługujących szyfrowania](#https-everywhere---szyfrowana-sieć)
 - Stosuj [unikalne hasła](https://haveibeenpwned.com/Passwords) dla każdego serwisu, najlepiej korzystając z [menedżera haseł](#keepassxc)
 - Nie wpinaj do swojego komputera pendrivów i dysków nieznanego pochodzenia
@@ -231,8 +231,7 @@ Dodatek działa od razu po instalacji i można pobrać go ze strony https://addo
 ### Containers - Zamykanie stron w kontenery
 #### Dla początkujących
 Najbardziej podstawowym sposobem na opakowanie strony w kontener, który uniemożliwia śledzenie poczynań użytkownika poza daną stroną jest **Facebook Container** opakowujący stronę wraz z śledzącymi skryptami i ciasteczkami.
-
-Aby zaczął działać wystarczy zainstalować go ze strony - https://addons.mozilla.org/en-US/firefox/addon/facebook-container/
+https://addons.mozilla.org/en-US/firefox/addon/facebook-container/
 
 #### Dla zaawansowanych
 Istnieje również nieco bardziej zaawansowana forma tego dodatku.  
@@ -245,53 +244,59 @@ Oprócz oczywistego zysku dla prywatności, umożliwia użytkownikom łatwe orga
 
 ### Canvas Blocker (Fingerprint Protect) - Zmiana odcisku palca
 
-Skuteczne narzędzie[*](https://github.com/ghacksuserjs/ghacks-user.js/wiki/4.1-Extensions#small_orange_diamond-%EF%B8%8F-anti-fingerprinting-extensions-fk-no), pozwalające zmienić odcisk palca przy każdym odświeżeniu odwiedzanej strony
+Skuteczne narzędzie[*](https://github.com/ghacksuserjs/ghacks-user.js/wiki/4.1-Extensions#small_orange_diamond-%EF%B8%8F-anti-fingerprinting-extensions-fk-no), pozwalające zmienić odcisk palca przy każdym odświeżeniu odwiedzanej strony.
 https://addons.mozilla.org/pl/firefox/addon/canvas-blocker-no-fingerprint/
 
 aby przetestować, wejdź na https://browserleaks.com/canvas
 
 ### ClearURLs - Optymalizator linków
 
-Usuwanie elementów śledzących, z linków przekierowywujących pomiędzy odwiedzanymi domenami
+Usuwanie elementów śledzących, z linków przekierowywujących pomiędzy odwiedzanymi domenami.
 https://addons.mozilla.org/en-US/firefox/addon/clearurls/
 
 ### Privacy Possum - Utrudnia śledzenie
 
-Prywatność Possum sprawia, że śledzenie Ciebie jest mniej opłacalne. Firmy zbierają dane o Tobie, aby stworzyć asymetryczną informacje, które wykorzystują do osiągania zysków w coraz bardziej ekspansywny sposób. Ich zysk pochodzi z Twojej niekorzystnej sytuacji informacyjnej. Privacy Possum eliminuje powszechne komercyjne metody śledzenia poprzez redukcję i fałszowanie danych zebranych przez firmy śledzące. https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/
+Prywatność Possum sprawia, że śledzenie Ciebie jest mniej opłacalne. Firmy zbierają dane o Tobie, aby stworzyć asymetryczną informacje, które wykorzystują do osiągania zysków w coraz bardziej ekspansywny sposób. Ich zysk pochodzi z Twojej niekorzystnej sytuacji informacyjnej. Privacy Possum eliminuje powszechne komercyjne metody śledzenia poprzez redukcję i fałszowanie danych zebranych przez firmy śledzące.
+https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/
 
 Pamiętaj by nie duplikować z innymi rozszerzeniami, takimi jak: Ghostery, Disconnect i Privacy Badger
 
 ### Polska Ciasteczkowa Zgoda
 
 Rozszerzenie automatycznie akceptujące politykę ciasteczek/RODO na stronach dostępnych w języku polskim. Stanowi ono uzupełnienie [Polskich Filtrów Rodo-Ciasteczkowych](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/cookies_filters/adblock_cookies.txt&title=Polskie%20Filtry%20RODO-Ciasteczkowe) (wchodzących też w skład **Polskich Filtrów Elementów Irytujących**) oraz wymaganej przez nie listy [I don't care about cookies](https://subscribe.adblockplus.org/?location=https://www.i-dont-care-about-cookies.eu/abp/&title=I%20dont%20care%20about%20cookies).
-
 https://addons.mozilla.org/pl/firefox/addon/polish-cookie-consent/
 
 ### Tab Stash
 
-Bezproblemowy sposób na zapisywanie i przywracanie partii zakładek jako zakładek. Oczyść karty, oczyść swój umysł. https://addons.mozilla.org/en-US/firefox/addon/tab-stash/
+Bezproblemowy sposób na zapisywanie i przywracanie partii zakładek jako zakładek. Oczyść karty, oczyść swój umysł. 
+https://addons.mozilla.org/en-US/firefox/addon/tab-stash/
 
 ### Simple Translate
 
-Szybkie tłumaczenie wybranego tekstu na stronie internetowej. W wyskakującym okienku na pasku narzędzi możesz przetłumaczyć wprowadzony tekst. https://addons.mozilla.org/pl/firefox/addon/simple-translate/
+Szybkie tłumaczenie wybranego tekstu na stronie internetowej. W wyskakującym okienku na pasku narzędzi możesz przetłumaczyć wprowadzony tekst.
+https://addons.mozilla.org/pl/firefox/addon/simple-translate/
 
 ### Search by Image
-Search by Image jest rozszerzeniem do przeglądarki, które umożliwia inicjowanie wyszukiwania zwrotnego obrazu z menu kontekstowego po kliknięciu prawym przyciskiem myszy lub w pasku narzędzi przeglądarki i jest obsługiwane przez ponad 30 wyszukiwarek. https://addons.mozilla.org/en-US/firefox/addon/search_by_image/
+Search by Image jest rozszerzeniem do przeglądarki, które umożliwia inicjowanie wyszukiwania zwrotnego obrazu z menu kontekstowego po kliknięciu prawym przyciskiem myszy lub w pasku narzędzi przeglądarki i jest obsługiwane przez ponad 30 wyszukiwarek.
+https://addons.mozilla.org/en-US/firefox/addon/search_by_image/
 
 ### KeePassXC
-Oficjalna wtyczka do przeglądarki dla menedżera haseł KeePassXC 
+Oficjalna wtyczka do przeglądarki dla menedżera haseł KeePassXC
 https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/
 
 Sprawdź czy twoje dane są bezpieczne https://haveibeenpwned.com/
 
 ### Violentmonkey
-Violentmonkey zapewnia obsługę skryptów użytkownika dla przeglądarek. Działa na przeglądarkach z obsługą WebExtensions. Obsługuje większość skryptów dla Greasemonkey i Tampermonkey. https://addons.mozilla.org/pl/firefox/addon/violentmonkey/
+Violentmonkey zapewnia obsługę skryptów użytkownika dla przeglądarek. Działa na przeglądarkach z obsługą WebExtensions. Obsługuje większość skryptów dla Greasemonkey i Tampermonkey. 
+https://addons.mozilla.org/pl/firefox/addon/violentmonkey/
 
 ### Stylus
-Zmień swoją ulubioną witrynę internetową za pomocą Stylusa, aktywnie rozwijanego i zarządzanego przez społeczność menedżera stylów użytkownika. Łatwo instaluj niestandardowe motywy z popularnych repozytoriów online lub twórz, edytuj i zarządzaj własnymi spersonalizowanymi arkuszami stylów CSS. https://addons.mozilla.org/pl/firefox/addon/styl-us/
+Zmień swoją ulubioną witrynę internetową za pomocą Stylusa, aktywnie rozwijanego i zarządzanego przez społeczność menedżera stylów użytkownika. Łatwo instaluj niestandardowe motywy z popularnych repozytoriów online lub twórz, edytuj i zarządzaj własnymi spersonalizowanymi arkuszami stylów CSS. 
+https://addons.mozilla.org/pl/firefox/addon/styl-us/
 
 ### User Agent Switcher and Manager
-Możesz zmienić ciąg znaków user-agenta, aby wskazać, że jesteś na urządzeniu mobilnym, jeśli chcesz oglądać mobilne wersje stron, aby ładowały się szybciej. https://addons.mozilla.org/pl/firefox/addon/user-agent-string-switcher/
+Możesz zmienić ciąg znaków user-agenta, aby wskazać, że jesteś na urządzeniu mobilnym, jeśli chcesz oglądać mobilne wersje stron, aby ładowały się szybciej. 
+https://addons.mozilla.org/pl/firefox/addon/user-agent-string-switcher/
 
 Więcej ciekawych user-agentów https://www.whatismybrowser.com/guides/the-latest-user-agent/
 https://www.whatismybrowser.com/detect/what-is-my-user-agent
@@ -305,25 +310,29 @@ Sprawdź podatność https://www.mike-gualtieri.com/css-exfil-vulnerability-test
 Szybko zapisz strony internetowe na Wayback Machine w Archiwum internetowym i sprawdź, kiedy ostatnio twoja strona została zarchiwizowana. https://addons.mozilla.org/en-GB/firefox/addon/save-to-the-wayback-machine/
 
 ### FoxScroller
-Ta wtyczka umożliwia automatyczne przewijanie bez użycia kółka myszy. Jeśli klikniesz 
+Ta wtyczka umożliwia automatyczne przewijanie bez użycia kółka myszy. Jeśli klikniesz.
 https://addons.mozilla.org/en-US/firefox/addon/foxscroller/
 
 ### weAutoPagerize
-Automatycznie wstawia następną stronę[*](https://github.com/wantora/weautopagerize#compatibility-table). https://addons.mozilla.org/en-US/firefox/addon/weautopagerize/
-
-### Worldwide Radio
-Słuchaj na żywo stacji radiowych z całego świata.
-https://addons.mozilla.org/en-US/firefox/addon/worldwide-radio/
+Automatycznie wstawia następną stronę[*](https://github.com/wantora/weautopagerize#compatibility-table).
+https://addons.mozilla.org/en-US/firefox/addon/weautopagerize/
 
 ### Privacy Redirect
 Proste rozszerzenie internetowe, które przekierowuje Twittera, YouTube'a, Instagrama i Map Google do alternatyw przyjaznych dla prywatności. https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/
 
+### Language Tool
+Wielojęzyczne narzędzie do sprawdzania gramatyki, stylu i pisowni.
+https://addons.mozilla.org/pl/firefox/addon/languagetool/
+
 ### Rozszerzenia specyficzne dla YouTube
+https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass#readme<br/>
 https://github.com/pietervanheijningen/clickbait-remover-for-youtube<br/>
 https://github.com/Anarios/return-youtube-dislike#readme<br/>
 https://github.com/lawfx/YoutubeNonStop#readme<br/>
 https://github.com/erkserkserks/h264ify#readme<br/>
-https://github.com/ajayyy/SponsorBlock#readme
+https://github.com/ajayyy/SponsorBlock#readme<br/>
+https://github.com/amitbl/blocktube#readme<br/>
+https://unhook.app/
 
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
