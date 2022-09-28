@@ -53,7 +53,8 @@ lub zafundować mi kawę
 - Staraj się instalować programy ze stron domowej ich producenta, GitHuba lub ze sklepów z oprogramowaniem
 - Na Windowsie korzystaj z oprogramowania antywirusowego i [zapory](https://github.com/henrypp/simplewall/releases) / Na [Linuxie](https://github.com/qarmin/GNU-Linux-Podstawy#readme) korzystaj z [sandboxa](https://github.com/netblue30/firejail#readme) i ufw
 - Nie wpisuj swoich danych logowania na stronach [nieobsługujących szyfrowania](#https-everywhere---szyfrowana-sieć)
-- Stosuj [unikalne hasła](https://haveibeenpwned.com/Passwords) dla każdego serwisu, najlepiej korzystając z [menedżera haseł](#keepassxc)
+- Stosuj [unikalne](https://haveibeenpwned.com/Passwords) oraz [silne](https://user-images.githubusercontent.com/5884000/192772787-1ef51fcc-44a6-4817-ae93-c012896ccb31.png)
+ hasła dla każdego serwisu, najlepiej korzystając z [menedżera haseł](#keepassxc)
 - Nie wpinaj do swojego komputera pendrivów i dysków nieznanego pochodzenia
 - Na ogólnodostępnych punktach wifi korzystaj z [vpn](https://www.privacytools.io/providers/vpn/#vpn) lub [wireguard](https://github.com/angristan/wireguard-install#readme)
 - [Szyfruj](https://mhogomchungu.github.io/sirikali/#screenshots) swoje prywatne dane przed udostępnieniem w chmurze
