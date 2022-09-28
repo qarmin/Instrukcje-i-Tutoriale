@@ -327,13 +327,13 @@ https://addons.mozilla.org/pl/firefox/addon/languagetool/
 
 ### Rozszerzenia specyficzne dla YouTube
 https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass#readme<br/>
-https://github.com/pietervanheijningen/clickbait-remover-for-youtube<br/>
+https://github.com/pietervanheijningen/clickbait-remover-for-youtube#readme<br/>
+https://github.com/lawrencehook/remove-youtube-suggestions#readme<br/>
 https://github.com/Anarios/return-youtube-dislike#readme<br/>
 https://github.com/lawfx/YoutubeNonStop#readme<br/>
 https://github.com/erkserkserks/h264ify#readme<br/>
 https://github.com/ajayyy/SponsorBlock#readme<br/>
-https://github.com/amitbl/blocktube#readme<br/>
-https://unhook.app/
+https://github.com/amitbl/blocktube#readme
 
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
