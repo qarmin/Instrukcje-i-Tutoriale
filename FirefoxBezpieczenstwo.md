@@ -41,7 +41,7 @@ lub zafundować mi kawę
   - [Save To The Wayback Machine](#save-to-the-wayback-machine)
   - [FoxScroller](#foxscroller)
   - [weAutoPagerize](#weautopagerize)
-  - [Privacy Redirect](#privacy-redirect)
+  - [LibRedirect](#libredirect)
   - [Language Tool](#language-tool)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
@@ -318,8 +318,8 @@ https://addons.mozilla.org/en-US/firefox/addon/foxscroller/
 Automatycznie wstawia następną stronę[*](https://github.com/wantora/weautopagerize#compatibility-table).
 https://addons.mozilla.org/en-US/firefox/addon/weautopagerize/
 
-### Privacy Redirect
-Proste rozszerzenie internetowe, które przekierowuje Twittera, YouTube'a, Instagrama i Map Google do alternatyw przyjaznych dla prywatności. https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/
+### LibRedirect
+Proste rozszerzenie internetowe, które przekierowuje Twittera, YouTube'a, Instagrama i Map Google do alternatyw przyjaznych dla prywatności. https://addons.mozilla.org/pl/firefox/addon/libredirect/
 
 ### Language Tool
 Wielojęzyczne narzędzie do sprawdzania gramatyki, stylu i pisowni.
@@ -331,7 +331,6 @@ https://github.com/pietervanheijningen/clickbait-remover-for-youtube#readme<br/>
 https://github.com/lawrencehook/remove-youtube-suggestions#readme<br/>
 https://github.com/Anarios/return-youtube-dislike#readme<br/>
 https://github.com/lawfx/YoutubeNonStop#readme<br/>
-https://github.com/erkserkserks/h264ify#readme<br/>
 https://github.com/ajayyy/SponsorBlock#readme<br/>
 https://github.com/amitbl/blocktube#readme
 
