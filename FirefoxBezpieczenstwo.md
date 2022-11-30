@@ -31,7 +31,7 @@ lub zafundować mi kawę
   - [Privacy Possum](#privacy-possum---utrudnia-śledzenie)
   - [Polska Ciasteczkowa Zgoda](#polska-ciasteczkowa-zgoda)
   - [Tab Stash](#tab-stash)
-  - [Simple Translate](#simple-translate)
+  - [Translate Web Pages](#translate-web-pages)
   - [Search by Image](#search-by-image)
   - [KeePassXC](#keepassxc)
   - [Violentmonkey](#violentmonkey)
@@ -272,10 +272,10 @@ https://addons.mozilla.org/pl/firefox/addon/polish-cookie-consent/
 Bezproblemowy sposób na zapisywanie i przywracanie partii zakładek jako zakładek. Oczyść karty, oczyść swój umysł. 
 https://addons.mozilla.org/en-US/firefox/addon/tab-stash/
 
-### Simple Translate
+### Translate Web Pages
 
 Szybkie tłumaczenie wybranego tekstu na stronie internetowej. W wyskakującym okienku na pasku narzędzi możesz przetłumaczyć wprowadzony tekst.
-https://addons.mozilla.org/pl/firefox/addon/simple-translate/
+https://addons.mozilla.org/pl/firefox/addon/traduzir-paginas-web/
 
 ### Search by Image
 Search by Image jest rozszerzeniem do przeglądarki, które umożliwia inicjowanie wyszukiwania zwrotnego obrazu z menu kontekstowego po kliknięciu prawym przyciskiem myszy lub w pasku narzędzi przeglądarki i jest obsługiwane przez ponad 30 wyszukiwarek.
