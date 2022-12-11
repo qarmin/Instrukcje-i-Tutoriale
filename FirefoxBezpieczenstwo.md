@@ -31,7 +31,7 @@ lub zafundować mi kawę
   - [Privacy Possum](#privacy-possum---utrudnia-śledzenie)
   - [Polska Ciasteczkowa Zgoda](#polska-ciasteczkowa-zgoda)
   - [Tab Stash](#tab-stash)
-  - [Simple Translate](#simple-translate)
+  - [Translate Web Pages](#translate-web-pages)
   - [Search by Image](#search-by-image)
   - [KeePassXC](#keepassxc)
   - [Violentmonkey](#violentmonkey)
@@ -41,7 +41,7 @@ lub zafundować mi kawę
   - [Save To The Wayback Machine](#save-to-the-wayback-machine)
   - [FoxScroller](#foxscroller)
   - [weAutoPagerize](#weautopagerize)
-  - [Privacy Redirect](#privacy-redirect)
+  - [LibRedirect](#libredirect)
   - [Language Tool](#language-tool)
 - [Zaawansowane ustawienia](#zaawansowane-ustawienia)
 
@@ -53,7 +53,8 @@ lub zafundować mi kawę
 - Staraj się instalować programy ze stron domowej ich producenta, GitHuba lub ze sklepów z oprogramowaniem
 - Na Windowsie korzystaj z oprogramowania antywirusowego i [zapory](https://github.com/henrypp/simplewall/releases) / Na [Linuxie](https://github.com/qarmin/GNU-Linux-Podstawy#readme) korzystaj z [sandboxa](https://github.com/netblue30/firejail#readme) i ufw
 - Nie wpisuj swoich danych logowania na stronach [nieobsługujących szyfrowania](#https-everywhere---szyfrowana-sieć)
-- Stosuj [unikalne hasła](https://haveibeenpwned.com/Passwords) dla każdego serwisu, najlepiej korzystając z [menedżera haseł](#keepassxc)
+- Stosuj [unikalne](https://haveibeenpwned.com/Passwords) oraz [silne](https://user-images.githubusercontent.com/5884000/192772787-1ef51fcc-44a6-4817-ae93-c012896ccb31.png)
+ hasła dla każdego serwisu, najlepiej korzystając z [menedżera haseł](#keepassxc)
 - Nie wpinaj do swojego komputera pendrivów i dysków nieznanego pochodzenia
 - Na ogólnodostępnych punktach wifi korzystaj z [vpn](https://www.privacytools.io/providers/vpn/#vpn) lub [wireguard](https://github.com/angristan/wireguard-install#readme)
 - [Szyfruj](https://mhogomchungu.github.io/sirikali/#screenshots) swoje prywatne dane przed udostępnieniem w chmurze
@@ -271,10 +272,10 @@ https://addons.mozilla.org/pl/firefox/addon/polish-cookie-consent/
 Bezproblemowy sposób na zapisywanie i przywracanie partii zakładek jako zakładek. Oczyść karty, oczyść swój umysł. 
 https://addons.mozilla.org/en-US/firefox/addon/tab-stash/
 
-### Simple Translate
+### Translate Web Pages
 
 Szybkie tłumaczenie wybranego tekstu na stronie internetowej. W wyskakującym okienku na pasku narzędzi możesz przetłumaczyć wprowadzony tekst.
-https://addons.mozilla.org/pl/firefox/addon/simple-translate/
+https://addons.mozilla.org/pl/firefox/addon/traduzir-paginas-web/
 
 ### Search by Image
 Search by Image jest rozszerzeniem do przeglądarki, które umożliwia inicjowanie wyszukiwania zwrotnego obrazu z menu kontekstowego po kliknięciu prawym przyciskiem myszy lub w pasku narzędzi przeglądarki i jest obsługiwane przez ponad 30 wyszukiwarek.
@@ -317,8 +318,8 @@ https://addons.mozilla.org/en-US/firefox/addon/foxscroller/
 Automatycznie wstawia następną stronę[*](https://github.com/wantora/weautopagerize#compatibility-table).
 https://addons.mozilla.org/en-US/firefox/addon/weautopagerize/
 
-### Privacy Redirect
-Proste rozszerzenie internetowe, które przekierowuje Twittera, YouTube'a, Instagrama i Map Google do alternatyw przyjaznych dla prywatności. https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/
+### LibRedirect
+Proste rozszerzenie internetowe, które przekierowuje Twittera, YouTube'a, Instagrama i Map Google do alternatyw przyjaznych dla prywatności. https://addons.mozilla.org/pl/firefox/addon/libredirect/
 
 ### Language Tool
 Wielojęzyczne narzędzie do sprawdzania gramatyki, stylu i pisowni.
@@ -326,13 +327,12 @@ https://addons.mozilla.org/pl/firefox/addon/languagetool/
 
 ### Rozszerzenia specyficzne dla YouTube
 https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass#readme<br/>
-https://github.com/pietervanheijningen/clickbait-remover-for-youtube<br/>
+https://github.com/pietervanheijningen/clickbait-remover-for-youtube#readme<br/>
+https://github.com/lawrencehook/remove-youtube-suggestions#readme<br/>
 https://github.com/Anarios/return-youtube-dislike#readme<br/>
 https://github.com/lawfx/YoutubeNonStop#readme<br/>
-https://github.com/erkserkserks/h264ify#readme<br/>
 https://github.com/ajayyy/SponsorBlock#readme<br/>
-https://github.com/amitbl/blocktube#readme<br/>
-https://unhook.app/
+https://github.com/amitbl/blocktube#readme
 
 ## Zaawansowane ustawienia
 Znaczną ilość(jeśli nie wszystkie) opcji, które można ustawić poprzez graficzny interfejs użytkownika, można również ustawić w tekstowym panelu konfiguracyjnym przeznaczonym dla zaawansowanych użytkowników.  
