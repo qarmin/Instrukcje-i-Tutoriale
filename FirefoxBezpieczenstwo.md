@@ -356,6 +356,5 @@ Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:conf
 
 Szablony dla Firefox
 - ang [arkenfox user.js](https://github.com/arkenfox/user.js) - Obszerny szablon user.js służący do konfigurowania i utwardzania prywatności, bezpieczeństwa i ochrony przed pobieraniem odcisków palców Firefoksa.
-- ang [hardening firefoxa](https://brainfucksec.github.io/hardening-firefox)
 
 sprawdź czy twoja konfiguracja jest powtarzalna https://amiunique.org/fp
