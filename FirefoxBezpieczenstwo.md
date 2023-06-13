@@ -354,8 +354,8 @@ Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:conf
 - `plugins.enumerable_names = "puste pole"` - Zapobiega odczytywaniu listy dostępnych wtyczek
 - `security.tls.version.min = 2` - Skuteczniejsze szyfrowanie TLS 1.2 (może powodować problemy ze stronami które nie wspierają silnego szyfrowania tls 1.2)
 
-Szablony dla Firefox
-- ang [arkenfox user.js](https://github.com/arkenfox/user.js) - Obszerny szablon user.js służący do konfigurowania i utwardzania prywatności, bezpieczeństwa i ochrony przed pobieraniem odcisków palców Firefoksa.
+Szablony dla Firefoxa
+- ang [arkenfox user.js](https://github.com/arkenfox/user.js) - Obszerny szablon user.js służący do konfigurowania i utwardzania prywatności, bezpieczeństwa i ochrony przed pobieraniem odcisków palców.
 - ang [Firefox Profilemaker](https://ffprofile.com/#start) - To narzędzie pomoże ci utworzyć własny profil Firefoksa
 
 sprawdź czy twoja konfiguracja jest powtarzalna https://amiunique.org/fp
