@@ -356,4 +356,4 @@ Szablony dla Firefoxa
 - ang [arkenfox user.js](https://github.com/arkenfox/user.js) - Obszerny szablon user.js służący do konfigurowania i utwardzania prywatności, bezpieczeństwa i ochrony przed pobieraniem odcisków palców.
 - ang [Firefox Profilemaker](https://ffprofile.com/#start) - To narzędzie pomoże ci utworzyć własny profil Firefoksa
 
-sprawdź czy twoja konfiguracja jest powtarzalna https://amiunique.org/fp
+Sprawdź czy twoja konfiguracja jest powtarzalna https://amiunique.org/fp
