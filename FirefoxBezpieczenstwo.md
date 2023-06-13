@@ -115,8 +115,6 @@ https://www.qwant.com/?q=%s
 Aby na stałe odfiltrować jakąś strone z wyników wyszukiwania, użyj rozszerzenia 
 https://addons.mozilla.org/en-US/firefox/addon/searchmage-search-enhancer/
 
-Aby mieć wyniki wyszukiwania z podglądem, zainstaluj https://addons.mozilla.org/en-US/firefox/addon/searchpreview/
-
 ## Wbudowana ochrona przed śledzeniem
 Firefox oferuje domyślnie **Standardową** ochronę przed śledzącymi skryptami, ciasteczkami czy kryptowalutami.  
 
