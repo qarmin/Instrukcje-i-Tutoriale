@@ -115,8 +115,6 @@ https://www.qwant.com/?q=%s
 Aby na stałe odfiltrować jakąś strone z wyników wyszukiwania, użyj rozszerzenia 
 https://addons.mozilla.org/en-US/firefox/addon/searchmage-search-enhancer/
 
-Aby mieć wyniki wyszukiwania z podglądem, zainstaluj https://addons.mozilla.org/en-US/firefox/addon/searchpreview/
-
 ## Wbudowana ochrona przed śledzeniem
 Firefox oferuje domyślnie **Standardową** ochronę przed śledzącymi skryptami, ciasteczkami czy kryptowalutami.  
 
@@ -354,8 +352,8 @@ Oto niektóre z ciekawszych opcji, które można zmienić na stronie `about:conf
 - `plugins.enumerable_names = "puste pole"` - Zapobiega odczytywaniu listy dostępnych wtyczek
 - `security.tls.version.min = 2` - Skuteczniejsze szyfrowanie TLS 1.2 (może powodować problemy ze stronami które nie wspierają silnego szyfrowania tls 1.2)
 
-Szablony dla Firefox
-- ang [arkenfox user.js](https://github.com/arkenfox/user.js) - Obszerny szablon user.js służący do konfigurowania i utwardzania prywatności, bezpieczeństwa i ochrony przed pobieraniem odcisków palców Firefoksa.
-- ang [hardening firefoxa](https://brainfucksec.github.io/hardening-firefox)
+Szablony dla Firefoxa
+- ang [arkenfox user.js](https://github.com/arkenfox/user.js) - Obszerny szablon user.js służący do konfigurowania i utwardzania prywatności, bezpieczeństwa i ochrony przed pobieraniem odcisków palców.
+- ang [Firefox Profilemaker](https://ffprofile.com/#start) - To narzędzie pomoże ci utworzyć własny profil Firefoksa
 
-sprawdź czy twoja konfiguracja jest powtarzalna https://amiunique.org/fp
+Sprawdź czy twoja konfiguracja jest powtarzalna https://amiunique.org/fp
