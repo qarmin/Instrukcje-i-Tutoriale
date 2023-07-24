@@ -81,7 +81,7 @@ Aby sprawdzić czy szyfrowany DNS działa, wykonaj test na stronie https://www.c
 
 
 ## Telemetria Firefoxa
-[Firefox](https://privacytests.org/) domyślnie zbiera pewne informacje telemetryczne i zgłoszenia awarii, więc jeśli chcemy pomóc w jego rozwoju, możemy zaznaczyć niektóre lub wszystkie z opcji.
+Firefox domyślnie zbiera pewne informacje telemetryczne i zgłoszenia awarii, więc jeśli chcemy pomóc w jego rozwoju, możemy zaznaczyć niektóre lub wszystkie z opcji.
 Wyłączyć można je w ustawieniach Firefoxa w zakładce **Prywatność i Bezpieczeństwo** pod **Dane zbierane przez program Firefox**
 
 ![S](https://user-images.githubusercontent.com/41945903/68146588-a0a61080-ff38-11e9-882d-c97b505ef4e6.png)
@@ -116,7 +116,7 @@ Aby na stałe odfiltrować jakąś strone z wyników wyszukiwania, użyj rozszer
 https://addons.mozilla.org/en-US/firefox/addon/searchmage-search-enhancer/
 
 ## Wbudowana ochrona przed śledzeniem
-Firefox oferuje domyślnie **Standardową** ochronę przed śledzącymi skryptami, ciasteczkami czy kryptowalutami.  
+[Firefox](https://privacytests.org/) oferuje domyślnie **Standardową** ochronę przed śledzącymi skryptami, ciasteczkami czy kryptowalutami.  
 
 Możliwe jest również użycie **Ścisłej** ochrony przed śledzeniem, blokującej więcej elementów śledzących lecz niektóre elementy na stronie mogą nie ładować się poprawnie.
 
